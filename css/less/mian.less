@@ -1,0 +1,45 @@
+// quick import
+@import "./all.less";
+// override global variables
+@support-ie-version: 10;
+@default-font-size: 14px;
+@support-ie-version: 7;
+@use-autoprefixer: false;
+@support-html5: true;
+@default-text-color:#6c6c6c;
+@default-input-placeholder-color:#999;
+@default-base-font-family:"SimSun", Arial, sans-serif;
+@default-heading-font-family:"Helvetica Neue", Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+@default-old-ie-heading-font-family:"Microsoft YaHei", Arial, sans-serif;
+@default-code-font-family:Monaco, Consolas, monospace;
+@default-border-radius:5px;
+@default-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25);
+// global scope
+.global-normalize-opentype();
+// global scope
+.global-reset();
+// global scope
+.reset-html5();
+// // global scope
+// .global-normalize();
+
+body {
+    font-family:"SimSun" Arial, sans-serif;;
+    .reset-body();
+    .font-color-hei();
+    .reset-box-model();
+    .reset-font();
+}
+table {
+    .reset-table();
+}
+td, th {
+    .reset-table-cell();
+}
+ul, ol {
+    .reset-list-style();
+}
+textarea {
+    .placeholder(lightblue);
+}
+
