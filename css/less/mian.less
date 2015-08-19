@@ -339,6 +339,7 @@ textarea {
         .bg-lan();
         .font-s();
         .centered-line(36px);
+        .hover-link();
     }
 }
 
@@ -349,6 +350,10 @@ textarea {
 .u-more{
     padding-right: 10px;
     font-size: 16px;
+    &:hover{
+        color: @lan;
+        .hover-link();
+    }
 }
 .column-content-tit{
         background:#F8F8F8;
@@ -386,7 +391,10 @@ textarea {
             width: 94px;
         }
         .u-c1-row6{
-            widht: 100px;
+            width: 100px;
+            a{
+                .hover-link();
+            }
         }
 
 
@@ -452,7 +460,7 @@ textarea {
         li{
             float: left;
             text-align: center;
-            .centered-line(46px);
+            .centered-line(42px);
         }
         .u-c1-row1{
             width: 74px;
@@ -709,6 +717,7 @@ textarea {
 .fooder-mian-code{
     width: 180px;
     height: 96px;
+    margin-left: 68px;
 }
 .fooder-code-content{
     width: 88px;
@@ -728,3 +737,72 @@ font-size: 12px;
 // .l-fooder-img{
 
 // }
+// l-fixed-sidebar
+.l-fixed-sidebar{
+    li{
+        width: 115px;
+        height:40px;
+        margin-bottom: 5px;
+        a{
+            display: inline-block;
+            width: 100%;
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            text-indent: 14px;
+            .centered-line(40px);
+            .hover-link();
+        }
+        .qq{
+            background:url(../../images/icon-side-qq.png) 10px center no-repeat #0075C2;
+        }
+        .edit{
+            background: url(../../images/icon-side-edit.png) 10px center no-repeat #FC703F;
+        }
+    }
+}
+/*weixin */
+#box-kefu {
+      position: fixed;
+      right: 0;
+      top: 50%;
+      margin-top: -64px;
+      width: 115px;
+      height: 170px;
+      z-index: 99999;
+    // _position: absolute;
+    // _top: expression(eval(document.documentElement.scrollTop+100));
+}
+#box-kefu .kefu-open {
+    position: absolute;
+    top: 3px;
+    right: 6px;
+    width: 115px;
+    height: 174px;
+    overflow:hidden;
+}
+#box-kefu .kefu-open .close {
+    background:#FC703F;
+    display: block;
+    position: absolute;
+    width: 115px;
+    height: 40px;
+    line-height: 40px;
+    right: 0;
+    bottom: 0px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    ;
+}
+#box-kefu .kefu-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 80px;
+    padding: 0;
+    background:url(../../images/content-me-sidebar.gif) center left no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+}
