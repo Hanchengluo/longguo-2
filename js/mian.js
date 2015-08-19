@@ -1,3 +1,34 @@
+// search
+$(function(){
+  $("#searchSelected").click(function(){
+    $("#searchTab").show();
+    $(this).addClass("searchOpen");
+  });
+
+  $("#searchTab li").hover(function(){
+    $(this).addClass("selected");
+  },function(){
+    $(this).removeClass("selected");
+  });
+
+  $("#searchTab li").click(function(){
+    $("#searchSelected").html($(this).html());
+    $("#searchTab").hide();
+    $("#searchSelected").removeClass("searchOpen");
+  });
+});
+// banner
+$(function() {
+        $('#banner').marquee({
+            auto: true,
+            interval: 5000 ,
+            speed: 500,
+            showNum: 1,
+            stepLen: 1,
+            prevElement: $('#u-prev'),
+            nextElement: $('#u-next')
+        });
+    })
 // tab
 $(function() {
   function tabs(tabTit, on, tabCon) {
@@ -13,11 +44,11 @@ $(function() {
       $(tabCon).children().eq(index).show().siblings().hide();
     });
   }
-  tabs(".tab-hd", "active", ".tab-bd");
+  tabs(".tab-hd-h", "active", ".tab-bd-h");
 });
 // marquee
 $(function() {
-    $('#wrap7').marquee({
+    $('#shoplist3-marquee1,#shoplist3-marquee2,#shoplist3-marquee3,#shoplist3-marquee4,#shoplist3-marquee5,#shoplist3-marquee6').marquee({
       auto: true,
       interval: 2000,
       showNum: 3,
@@ -26,7 +57,7 @@ $(function() {
     });
   })
 // tip
-$('#demo-tip-twitter').poshytip({
+$('.shop-tip').poshytip({
   className: 'tip-twitter',
   showTimeout: 1,
   alignTo: 'target',

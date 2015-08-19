@@ -5,42 +5,1151 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>首页·龙国贸易</title>
     <link rel="stylesheet" href="css/css/mian.css">
+    <link rel="stylesheet" type="text/css" href="css/css/tip-twitter/tip-twitter.css">
+   <!--[if lte IE 6]>
+    <script src="js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    DD_belatedPNG.fix('div, ul, img, li, input , a, .png_bg');
+    /* 将 .png_bg 改成你应用了透明PNG的CSS选择器*/
+    </script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
+
+
 <body>
 <div class="container">
-    <div class="l-top-column"></div>
+    <div class="l-top-column">
+        <div class="top-column-mian ">
+            <div class="l-left">
+                您好，欢迎来化时代！ |  <a class="font-color-hong" href="" title="">请登录</a>  <a href="" title="">免费注册</a>
+            </div>
+            <div class="l-right">
+                <ui>
+                    <li>
+                        <a class="icon-drop-down" href="">会员中心</a>
+                        <div class="dorp-down-user">
+                            <ul>
+                                <li><a href="">我的账号</a></li>
+                                <li><a href="">我的交易</a></li>
+                                <li><a href="">我的发布</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="icon-drop-down" href="">帮助中心    </a>
+                        <div class="dorp-down-user">
+                            <ul>
+                                <li><a href="">我的账号</a></li>
+                                <li><a href="">我的交易</a></li>
+                                <li><a href="">我的发布</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li style="width: 172px;"><a >交易时间：工作日 9:00-17:30</a> </li>
+                </ui>
+            </div>
+        </div>
+    </div>
     <div class="l-header">
         <div class="l-header-top">
-            <div class="u-logo"></div>
-            <div class="u-search"></div>
-            <div class="u-users"></div>
+            <div class="u-logo l-left">
+                <img src="images/logo.png" height="61" width="215" alt="">
+            </div>
+            <div class="u-search ">
+                <form method="get" name="" action="">
+                    <div id="searchTxt" class="searchTxt" onMouseOver="this.className='searchTxt searchTxtHover';" onMouseOut="this.className='searchTxt';">
+                        <div class="radius" style="top:-2px;"></div>
+                        <div class="radius" style="top:31px;"></div>
+                        <div class="searchMenu">
+                            <div class="searchSelected icon-drop-down" id="searchSelected">现货</div>
+                            <div style="display:none;" class="searchTab" id="searchTab">
+                                <div class="radius" style="top:259px;"></div>
+                                <div class="radius" style="top:259px;left:59px;"></div>
+                                <ul>
+                                    <li class="">现货</li>
+                                    <li>期货</li>
+                                    <li>在途</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <input name="w" type="text" x-webkit-speech x-webkit-grammar=”builtin:search />
+                    </div>
+                    <div class="searchBtn">
+                        <button id="searchBtn" type="submit">搜索</button>
+                    </div>
+                </form>
+            </div>
+            <div class="u-users l-right">
+                <ul>
+                    <li><a href=""><img src="images/icon-weixin.jpg" height="37" width="37" alt=""></a>
+                    <p>微信公众号 </p></li>
+                    <li><a href=""><img src="images/icon-app.jpg" height="37" width="37" alt=""></a><p>移动化时代</p></li>
+                    <li><a href=""></a><img src="images/icon-user.jpg" height="37" width="37" alt=""><p>我的交易</p><em></em></li>
+                </ul>
+            </div>
         </div>
         <div class="l-header-bottom">
             <div class="l-nav">
                 <ul>
-                    <li><a href="">首页</a></li>
+                    <li><a class="active" href="">首页</a></li>
                     <li><a href="">我要买</a></li>
                     <li><a href="">我要卖</a></li>
                     <li><a href="">行情资讯</a></li>
                     <li><a href="">关于我们</a></li>
                 </ul>
-            </div>
-            <div class="u-iPhone">
+                <div class="u-iPhone l-right">
                 <img src="images/content-me.gif" height="24" width="203" alt="">
             </div>
+            </div>
+
         </div>
     </div><!-- end l-hearder -->
-    <div class="l-banner">
+    <div class="l-banner ">
+        <div class="l-banner-r">
+            <div id="banner" class="banner">
+                <ul>
+                    <li><a href=""><img src="word/banner01.jpg" height="300" width="1201" alt=""></a></li>
+                    <li><a href=""><img src="word/banner02.jpg" height="300" width="1201" alt=""></a></li>
+                    <li><a href=""><img src="word/banner01.jpg" height="300" width="1201" alt=""></a></li>
 
-        <div class="l-login"></div>
+                </ul>
+            </div>
+            <a href="javascript:void(0)" class="u-prev" id="u-prev">上一页</a>
+            <a href="javascript:void(0)" class="u-next" id="u-next">下一页</a>
+            <div class="l-login">
+                <h2 class="l-logo-tit">登录化时代</h2>
+                <p>没有账户？<a class="font-color-cheng" href="">免费注册</a></p>
+                <form action="index_submit" method="get" accept-charset="utf-8">
+                    <input class="i-user-name" type="text" name="user-name" value="" placeholder="手机号/邮箱" >
+                    <input class="i-user-pwd" type="password" name="user-pwd" value="" placeholder="登陆密码">
+                </form>
+                <p><a class="font-color-hui" href="" title="">忘记登录密码?</a></p>
+                <a class="f-login-bnt" href="" title="登录">登录</a>
+            </div>
+        </div>
     </div><!-- end l-banner -->
-    <div class="content">
+    <div class="mian">
 
+        <div class="l-main-column-shop">
+            <div class="mian-column-tit">
+                <h2 class="l-left">
+                    <span class="font-color-lan font36">PA</span> <span class="font-color-hei font24">苯酐</span> <em class="font-color-hui">|</em> <span class="font-color-hei font18">华南市场</span>
+                </h2>
+                <div class="mian-column-bnt l-right">
+                    <a class="f-user-buy" href="" title="我要买">我要买</a>
+                    <a class="f-user-buy" href="" title="我要卖">我要卖</a>
+                </div>
+            </div> <!-- end mian-column-tit -->
+            <div class="mian-column-content">
+                <div class="column-content1 l-left">
+                    <h2 class="font-color-hei column-content-tit">最新供应信息 <a class="u-more l-right" href="" title="更多>>">更多>></a></h2>
+                    <div class="con-shoplist1">
+                        <div class="shop-tip" title="PA 山东联合市区 300吨 送达 ￥5100 现货" >
+                            <ul >
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东联合…</li>
+                                <li class="u-c1-row3">300吨</li>
+                                <li class="u-c1-row4">送达…</li>
+                                <li class="u-c1-row5 font-color-cheng">￥5100</li>
+                                <li class="u-c1-row6"><a class="font-color-cheng" href="" title="认盘">认盘/</a><a class="font-color-cheng" href="" title="还盘">还盘</a></li>
+                            </ul>
+                        </div>
+                        <div class="shop-tip" title="PA 山东联合市区 300吨 送达 ￥5100 现货" >
+                            <ul >
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东联合…</li>
+                                <li class="u-c1-row3">300吨</li>
+                                <li class="u-c1-row4">送达…</li>
+                                <li class="u-c1-row5 font-color-cheng">￥5100</li>
+                                <li class="u-c1-row6"><a class="font-color-cheng" href="" title="认盘">认盘/</a><a class="font-color-cheng" href="" title="还盘">还盘</a></li>
+                            </ul>
+                        </div>
+                        <div class="shop-tip" title="PA 山东联合市区 300吨 送达 ￥5100 现货" >
+                            <ul >
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东联合…</li>
+                                <li class="u-c1-row3">300吨</li>
+                                <li class="u-c1-row4">送达…</li>
+                                <li class="u-c1-row5 font-color-cheng">￥5100</li>
+                                <li class="u-c1-row6"><a class="font-color-cheng" href="" title="认盘">认盘/</a><a class="font-color-cheng" href="" title="还盘">还盘</a></li>
+                            </ul>
+                        </div>
+                        <div class="shop-tip" title="PA 山东联合市区 300吨 送达 ￥5100 现货" >
+                            <ul >
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东联合…</li>
+                                <li class="u-c1-row3">300吨</li>
+                                <li class="u-c1-row4">送达…</li>
+                                <li class="u-c1-row5 font-color-cheng">￥5100</li>
+                                <li class="u-c1-row6"><a class="font-color-cheng" href="" title="认盘">认盘/</a><a class="font-color-cheng" href="" title="还盘">还盘</a></li>
+                            </ul>
+                        </div>
+                        <div class="shop-tip" title="PA 山东联合市区 300吨 送达 ￥5100 现货" >
+                            <ul >
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东联合…</li>
+                                <li class="u-c1-row3">300吨</li>
+                                <li class="u-c1-row4">送达…</li>
+                                <li class="u-c1-row5 font-color-cheng">￥5100</li>
+                                <li class="u-c1-row6"><a class="font-color-cheng" href="" title="认盘">认盘/</a><a class="font-color-cheng" href="" title="还盘">还盘</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-content2 l-left">
+                    <h2 class="font-color-hei column-content-tit">最新供应信息 <a class="u-more l-right" href="" title="更多>>">更多>></a></h2>
+                    <div class="con-shoplist2">
+                        <div class="border-bottom">
+                            <ul>
+                                <li class="u-c1-row1">品名</li>
+                                <li class="u-c1-row2">厂家</li>
+                                <li class="u-c1-row3">价格(元/吨)</li>
+                                <li class="u-c1-row4">数量(吨)</li>
+                                <li class="u-c1-row5">交货地</li>
+                                <li class="u-c1-row6">报价有效期</li>
+                                <li class="u-c1-row7">操作</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东济南</li>
+                                <li class="u-c1-row3 font-color-cheng">￥6565</li>
+                                <li class="u-c1-row4">200</li>
+                                <li class="u-c1-row5">送达</li>
+                                <li class="u-c1-row6">08-20</li>
+                                <li class="u-c1-row7"><a class="column-bnt-border font-color-cheng" href="" title="我要供货">我要供货</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东济南</li>
+                                <li class="u-c1-row3 font-color-cheng">￥6565</li>
+                                <li class="u-c1-row4">200</li>
+                                <li class="u-c1-row5">送达</li>
+                                <li class="u-c1-row6">08-20</li>
+                                <li class="u-c1-row7"><a class="column-bnt-border font-color-cheng" href="" title="我要供货">我要供货</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东济南</li>
+                                <li class="u-c1-row3 font-color-cheng">￥6565</li>
+                                <li class="u-c1-row4">200</li>
+                                <li class="u-c1-row5">送达</li>
+                                <li class="u-c1-row6">08-20</li>
+                                <li class="u-c1-row7"><a class="column-bnt-border font-color-cheng" href="" title="我要供货">我要供货</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东济南</li>
+                                <li class="u-c1-row3 font-color-cheng">￥6565</li>
+                                <li class="u-c1-row4">200</li>
+                                <li class="u-c1-row5">送达</li>
+                                <li class="u-c1-row6">08-20</li>
+                                <li class="u-c1-row7"><a class="column-bnt-border font-color-cheng" href="" title="我要供货">我要供货</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-content3 l-left">
+                    <div class="con-shoplist3">
+                        <div class="con-shoplist3-tit">
+                            <ul>
+                                <li class="u-c1-row1">品名</li>
+                                <li class="u-c1-row2">价格(元/吨)</li>
+                                <li class="u-c1-row3">数量(吨)</li>
+                                <li class="u-c1-row4">交货地</li>
+                                <li class="u-c1-row5">成交时间</li>
+                            </ul>
+                        </div>
+                        <div class="con-shoplist3-marquee" id="shoplist3-marquee1">
+                                <ul>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-content3 l-left">
+                    <div class="con-shoplist3">
+                        <div class="con-shoplist3-tit">
+                            <ul>
+                                <li class="u-c1-row1">品名</li>
+                                <li class="u-c1-row2">价格(元/吨)</li>
+                                <li class="u-c1-row3">数量(吨)</li>
+                                <li class="u-c1-row4">交货地</li>
+                                <li class="u-c1-row5">成交时间</li>
+                            </ul>
+                        </div>
+                        <div class="con-shoplist3-marquee" id="shoplist3-marquee2">
+                                <ul>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-content4 l-left">
+                    <div class="con-shoplist4">
+                        <div class="con-shoplist4-tit">
+                            买卖成交汇总
+                        </div>
+                        <div class="con-shoplist4-mian">
+                            <p>成交数量：<em class="font-color-cheng">3</em>/单</p>
+                            <p>成交金额：<em class="font-color-cheng">234,234,123</em>/元</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end mian-column-content -->
+            <div class="mian-column-left">
+                <h2 ><a class="font-color-bai" href="" title="产品资讯">产品资讯</a></h2>
+            </div> <!-- end mian-column-left -->
+        </div> <!-- end l-main-column-shop -->
+
+        <div class="l-main-column-shop">
+            <div class="mian-column-tit">
+                <h2 class="l-left">
+                    <span class="font-color-lan font36">增塑剂</span> <span class="font-color-hei font24">DOP/</span><span class="font-color-hei font24">DINP/</span><span class="font-color-hei font24">DOTP</span> <em class="font-color-hui">|</em> <span class="font-color-hei font18">华南市场</span>
+                </h2>
+                <div class="mian-column-bnt l-right">
+                    <a class="f-user-buy" href="" title="我要买">我要买</a>
+                    <a class="f-user-buy" href="" title="我要卖">我要卖</a>
+                </div>
+            </div> <!-- end mian-column-tit -->
+            <div class="mian-column-content">
+                <div class="column-content1 l-left">
+                    <h2 class="font-color-hei column-content-tit">最新供应信息 <a class="u-more l-right" href="" title="更多>>">更多>></a></h2>
+                    <div class="con-shoplist1">
+                        <div class="shop-tip" title="PA 山东联合市区 300吨 送达 ￥5100 现货" >
+                            <ul >
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东联合…</li>
+                                <li class="u-c1-row3">300吨</li>
+                                <li class="u-c1-row4">送达…</li>
+                                <li class="u-c1-row5 font-color-cheng">￥5100</li>
+                                <li class="u-c1-row6"><a class="font-color-cheng" href="" title="认盘">认盘/</a><a class="font-color-cheng" href="" title="还盘">还盘</a></li>
+                            </ul>
+                        </div>
+                        <div class="shop-tip" title="PA 山东联合市区 300吨 送达 ￥5100 现货" >
+                            <ul >
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东联合…</li>
+                                <li class="u-c1-row3">300吨</li>
+                                <li class="u-c1-row4">送达…</li>
+                                <li class="u-c1-row5 font-color-cheng">￥5100</li>
+                                <li class="u-c1-row6"><a class="font-color-cheng" href="" title="认盘">认盘/</a><a class="font-color-cheng" href="" title="还盘">还盘</a></li>
+                            </ul>
+                        </div>
+                        <div class="shop-tip" title="PA 山东联合市区 300吨 送达 ￥5100 现货" >
+                            <ul >
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东联合…</li>
+                                <li class="u-c1-row3">300吨</li>
+                                <li class="u-c1-row4">送达…</li>
+                                <li class="u-c1-row5 font-color-cheng">￥5100</li>
+                                <li class="u-c1-row6"><a class="font-color-cheng" href="" title="认盘">认盘/</a><a class="font-color-cheng" href="" title="还盘">还盘</a></li>
+                            </ul>
+                        </div>
+                        <div class="shop-tip" title="PA 山东联合市区 300吨 送达 ￥5100 现货" >
+                            <ul >
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东联合…</li>
+                                <li class="u-c1-row3">300吨</li>
+                                <li class="u-c1-row4">送达…</li>
+                                <li class="u-c1-row5 font-color-cheng">￥5100</li>
+                                <li class="u-c1-row6"><a class="font-color-cheng" href="" title="认盘">认盘/</a><a class="font-color-cheng" href="" title="还盘">还盘</a></li>
+                            </ul>
+                        </div>
+                        <div class="shop-tip" title="PA 山东联合市区 300吨 送达 ￥5100 现货" >
+                            <ul >
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东联合…</li>
+                                <li class="u-c1-row3">300吨</li>
+                                <li class="u-c1-row4">送达…</li>
+                                <li class="u-c1-row5 font-color-cheng">￥5100</li>
+                                <li class="u-c1-row6"><a class="font-color-cheng" href="" title="认盘">认盘/</a><a class="font-color-cheng" href="" title="还盘">还盘</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-content2 l-left">
+                    <h2 class="font-color-hei column-content-tit">最新供应信息 <a class="u-more l-right" href="" title="更多>>">更多>></a></h2>
+                    <div class="con-shoplist2">
+                        <div class="border-bottom">
+                            <ul>
+                                <li class="u-c1-row1">品名</li>
+                                <li class="u-c1-row2">厂家</li>
+                                <li class="u-c1-row3">价格(元/吨)</li>
+                                <li class="u-c1-row4">数量(吨)</li>
+                                <li class="u-c1-row5">交货地</li>
+                                <li class="u-c1-row6">报价有效期</li>
+                                <li class="u-c1-row7">操作</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东济南</li>
+                                <li class="u-c1-row3 font-color-cheng">￥6565</li>
+                                <li class="u-c1-row4">200</li>
+                                <li class="u-c1-row5">送达</li>
+                                <li class="u-c1-row6">08-20</li>
+                                <li class="u-c1-row7"><a class="column-bnt-border font-color-cheng" href="" title="我要供货">我要供货</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东济南</li>
+                                <li class="u-c1-row3 font-color-cheng">￥6565</li>
+                                <li class="u-c1-row4">200</li>
+                                <li class="u-c1-row5">送达</li>
+                                <li class="u-c1-row6">08-20</li>
+                                <li class="u-c1-row7"><a class="column-bnt-border font-color-cheng" href="" title="我要供货">我要供货</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东济南</li>
+                                <li class="u-c1-row3 font-color-cheng">￥6565</li>
+                                <li class="u-c1-row4">200</li>
+                                <li class="u-c1-row5">送达</li>
+                                <li class="u-c1-row6">08-20</li>
+                                <li class="u-c1-row7"><a class="column-bnt-border font-color-cheng" href="" title="我要供货">我要供货</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东济南</li>
+                                <li class="u-c1-row3 font-color-cheng">￥6565</li>
+                                <li class="u-c1-row4">200</li>
+                                <li class="u-c1-row5">送达</li>
+                                <li class="u-c1-row6">08-20</li>
+                                <li class="u-c1-row7"><a class="column-bnt-border font-color-cheng" href="" title="我要供货">我要供货</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-content3 l-left">
+                    <div class="con-shoplist3">
+                        <div class="con-shoplist3-tit">
+                            <ul>
+                                <li class="u-c1-row1">品名</li>
+                                <li class="u-c1-row2">价格(元/吨)</li>
+                                <li class="u-c1-row3">数量(吨)</li>
+                                <li class="u-c1-row4">交货地</li>
+                                <li class="u-c1-row5">成交时间</li>
+                            </ul>
+                        </div>
+                        <div class="con-shoplist3-marquee" id="shoplist3-marquee3">
+                                <ul>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-content3 l-left">
+                    <div class="con-shoplist3">
+                        <div class="con-shoplist3-tit">
+                            <ul>
+                                <li class="u-c1-row1">品名</li>
+                                <li class="u-c1-row2">价格(元/吨)</li>
+                                <li class="u-c1-row3">数量(吨)</li>
+                                <li class="u-c1-row4">交货地</li>
+                                <li class="u-c1-row5">成交时间</li>
+                            </ul>
+                        </div>
+                        <div class="con-shoplist3-marquee" id="shoplist3-marquee4">
+                                <ul>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-content4 l-left">
+                    <div class="con-shoplist4">
+                        <div class="con-shoplist4-tit">
+                            买卖成交汇总
+                        </div>
+                        <div class="con-shoplist4-mian">
+                            <p>成交数量：<em class="font-color-cheng">3</em>/单</p>
+                            <p>成交金额：<em class="font-color-cheng">234,234,123</em>/元</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end mian-column-content -->
+            <div class="mian-column-left">
+                <h2 ><a class="font-color-bai" href="" title="产品资讯">产品资讯</a></h2>
+            </div> <!-- end mian-column-left -->
+        </div> <!-- end l-main-column-shop -->
+
+        <div class="l-main-column-shop">
+            <div class="mian-column-tit">
+                <h2 class="l-left">
+                    <span class="font-color-lan font36">PVC</span> <span class="font-color-hei font24">聚氯乙烯</span> <em class="font-color-hui">|</em> <span class="font-color-hei font18">华南市场</span>
+                </h2>
+                <div class="mian-column-bnt l-right">
+                    <a class="f-user-buy" href="" title="我要买">我要买</a>
+                    <a class="f-user-buy" href="" title="我要卖">我要卖</a>
+                </div>
+            </div> <!-- end mian-column-tit -->
+            <div class="mian-column-content">
+                <div class="column-content1 l-left">
+                    <h2 class="font-color-hei column-content-tit">最新供应信息 <a class="u-more l-right" href="" title="更多>>">更多>></a></h2>
+                    <div class="con-shoplist1">
+                        <div class="shop-tip" title="PA 山东联合市区 300吨 送达 ￥5100 现货" >
+                            <ul >
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东联合…</li>
+                                <li class="u-c1-row3">300吨</li>
+                                <li class="u-c1-row4">送达…</li>
+                                <li class="u-c1-row5 font-color-cheng">￥5100</li>
+                                <li class="u-c1-row6"><a class="font-color-cheng" href="" title="认盘">认盘/</a><a class="font-color-cheng" href="" title="还盘">还盘</a></li>
+                            </ul>
+                        </div>
+                        <div class="shop-tip" title="PA 山东联合市区 300吨 送达 ￥5100 现货" >
+                            <ul >
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东联合…</li>
+                                <li class="u-c1-row3">300吨</li>
+                                <li class="u-c1-row4">送达…</li>
+                                <li class="u-c1-row5 font-color-cheng">￥5100</li>
+                                <li class="u-c1-row6"><a class="font-color-cheng" href="" title="认盘">认盘/</a><a class="font-color-cheng" href="" title="还盘">还盘</a></li>
+                            </ul>
+                        </div>
+                        <div class="shop-tip" title="PA 山东联合市区 300吨 送达 ￥5100 现货" >
+                            <ul >
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东联合…</li>
+                                <li class="u-c1-row3">300吨</li>
+                                <li class="u-c1-row4">送达…</li>
+                                <li class="u-c1-row5 font-color-cheng">￥5100</li>
+                                <li class="u-c1-row6"><a class="font-color-cheng" href="" title="认盘">认盘/</a><a class="font-color-cheng" href="" title="还盘">还盘</a></li>
+                            </ul>
+                        </div>
+                        <div class="shop-tip" title="PA 山东联合市区 300吨 送达 ￥5100 现货" >
+                            <ul >
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东联合…</li>
+                                <li class="u-c1-row3">300吨</li>
+                                <li class="u-c1-row4">送达…</li>
+                                <li class="u-c1-row5 font-color-cheng">￥5100</li>
+                                <li class="u-c1-row6"><a class="font-color-cheng" href="" title="认盘">认盘/</a><a class="font-color-cheng" href="" title="还盘">还盘</a></li>
+                            </ul>
+                        </div>
+                        <div class="shop-tip" title="PA 山东联合市区 300吨 送达 ￥5100 现货" >
+                            <ul >
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东联合…</li>
+                                <li class="u-c1-row3">300吨</li>
+                                <li class="u-c1-row4">送达…</li>
+                                <li class="u-c1-row5 font-color-cheng">￥5100</li>
+                                <li class="u-c1-row6"><a class="font-color-cheng" href="" title="认盘">认盘/</a><a class="font-color-cheng" href="" title="还盘">还盘</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-content2 l-left">
+                    <h2 class="font-color-hei column-content-tit">最新供应信息 <a class="u-more l-right" href="" title="更多>>">更多>></a></h2>
+                    <div class="con-shoplist2">
+                        <div class="border-bottom">
+                            <ul>
+                                <li class="u-c1-row1">品名</li>
+                                <li class="u-c1-row2">厂家</li>
+                                <li class="u-c1-row3">价格(元/吨)</li>
+                                <li class="u-c1-row4">数量(吨)</li>
+                                <li class="u-c1-row5">交货地</li>
+                                <li class="u-c1-row6">报价有效期</li>
+                                <li class="u-c1-row7">操作</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东济南</li>
+                                <li class="u-c1-row3 font-color-cheng">￥6565</li>
+                                <li class="u-c1-row4">200</li>
+                                <li class="u-c1-row5">送达</li>
+                                <li class="u-c1-row6">08-20</li>
+                                <li class="u-c1-row7"><a class="column-bnt-border font-color-cheng" href="" title="我要供货">我要供货</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东济南</li>
+                                <li class="u-c1-row3 font-color-cheng">￥6565</li>
+                                <li class="u-c1-row4">200</li>
+                                <li class="u-c1-row5">送达</li>
+                                <li class="u-c1-row6">08-20</li>
+                                <li class="u-c1-row7"><a class="column-bnt-border font-color-cheng" href="" title="我要供货">我要供货</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东济南</li>
+                                <li class="u-c1-row3 font-color-cheng">￥6565</li>
+                                <li class="u-c1-row4">200</li>
+                                <li class="u-c1-row5">送达</li>
+                                <li class="u-c1-row6">08-20</li>
+                                <li class="u-c1-row7"><a class="column-bnt-border font-color-cheng" href="" title="我要供货">我要供货</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="u-c1-row1">PA</li>
+                                <li class="u-c1-row2">山东济南</li>
+                                <li class="u-c1-row3 font-color-cheng">￥6565</li>
+                                <li class="u-c1-row4">200</li>
+                                <li class="u-c1-row5">送达</li>
+                                <li class="u-c1-row6">08-20</li>
+                                <li class="u-c1-row7"><a class="column-bnt-border font-color-cheng" href="" title="我要供货">我要供货</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-content3 l-left">
+                    <div class="con-shoplist3">
+                        <div class="con-shoplist3-tit">
+                            <ul>
+                                <li class="u-c1-row1">品名</li>
+                                <li class="u-c1-row2">价格(元/吨)</li>
+                                <li class="u-c1-row3">数量(吨)</li>
+                                <li class="u-c1-row4">交货地</li>
+                                <li class="u-c1-row5">成交时间</li>
+                            </ul>
+                        </div>
+                        <div class="con-shoplist3-marquee" id="shoplist3-marquee5">
+                                <ul>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-content3 l-left">
+                    <div class="con-shoplist3">
+                        <div class="con-shoplist3-tit">
+                            <ul>
+                                <li class="u-c1-row1">品名</li>
+                                <li class="u-c1-row2">价格(元/吨)</li>
+                                <li class="u-c1-row3">数量(吨)</li>
+                                <li class="u-c1-row4">交货地</li>
+                                <li class="u-c1-row5">成交时间</li>
+                            </ul>
+                        </div>
+                        <div class="con-shoplist3-marquee" id="shoplist3-marquee6">
+                                <ul>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <ul>
+                                                <li class="u-c1-row1">PA</li>
+                                                <li class="u-c1-row2 font-color-cheng">￥6565</li>
+                                                <li class="u-c1-row3">200</li>
+                                                <li class="u-c1-row4">送达</li>
+                                                <li class="u-c1-row5">08-20</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-content4 l-left">
+                    <div class="con-shoplist4">
+                        <div class="con-shoplist4-tit">
+                            买卖成交汇总
+                        </div>
+                        <div class="con-shoplist4-mian">
+                            <p>成交数量：<em class="font-color-cheng">3</em>/单</p>
+                            <p>成交金额：<em class="font-color-cheng">234,234,123</em>/元</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end mian-column-content -->
+            <div class="mian-column-left">
+                <h2 ><a class="font-color-bai" href="" title="产品资讯">产品资讯</a></h2>
+            </div> <!-- end mian-column-left -->
+        </div> <!-- end l-main-column-shop -->
+
+
+        <div class="l-main-column-new">
+            <div class="main-column-echart l-left">
+                <div class="column-echart-tit">
+                    <h2>化时代成交K线图</h2>
+                </div>
+                <div class="column-echart-mian">
+                    <div class="tab1">
+                      <ul class="tab-hd1 tab-hd-h"><li>苯酐</li><li>DOP</li><li>PVC</li></ul>
+                      <ul class="tab-bd1 tab-bd-h">
+                            <li>
+                                <div class="chart-tab1" id="chart01" style="width:530px;height:214px"></div>
+                            </li>
+                          <li>
+                                <div class="chart-tab2" id="chart02" style="width:530px;height:214px"></div>
+                          </li>
+                          <li>
+                            <div class="chart-tab3" id="chart03" style="width:530px;height:214px"></div>
+                          </li>
+                      </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="main-column-new l-right">
+                <div class="tab-new">
+                  <ul class="tab-hd-new tab-hd-h"><li>行业资讯</li><li>宏观资讯</li><li>要闻</li></ul>
+                  <ul class="tab-bd-new tab-bd-h">
+                      <li>
+                        <div class="column-new-list l-left border-right">
+                            <ul>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                            </ul>
+                        </div>
+                        <div class="column-new-list l-right">
+                            <ul>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                            </ul>
+                        </div>
+                      </li>
+                      <li>
+                          <div class="column-new-list l-left border-right">
+                                <ul>
+                                    <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                    <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                    <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                    <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                    <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                </ul>
+                            </div>
+                            <div class="column-new-list l-right">
+                                <ul>
+                                    <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                    <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                    <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                    <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                    <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                </ul>
+                            </div>
+                      </li>
+                      <li>
+                        <div class="column-new-list l-left border-right">
+                            <ul>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                            </ul>
+                        </div>
+                        <div class="column-new-list l-right">
+                            <ul>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                                <li><a href="">华南PE部分价格继续高报      </a><em>08-18</em></li>
+                            </ul>
+                        </div>
+                      </li>
+                  </ul>
+                </div>
+            </div>
+        </div> <!-- end l-main-column-new -->
+
+    </div> <!-- end mian -->
+<div class="fooder">
+    <div class="l-fooder-mian">
+        <div class="fooder-mian-logo l-left border-right">
+            <img src="images/logo.png" height="61" width="215" alt="">
+        </div>
+        <div class="fooder-mian-green l-left border-right">
+            <h2 class="icon-green">新手上路</h2>
+            <ul>
+                <li><a href="">新手指南</a></li>
+                <li><a href="">会员中心</a></li>
+                <li><a href="">如何委托买卖</a></li>
+            </ul>
+        </div>
+        <div class="fooder-mian-green l-left border-right">
+            <h2 class="icon-about">关于买卖</h2>
+            <ul>
+                <li><a href="">如何买</a></li>
+                <li><a href="">如何卖</a></li>
+                <li><a href="">如何付款</a></li>
+            </ul>
+        </div>
+        <div class="fooder-mian-code l-left">
+            <div class="fooder-code-img l-left">
+                <img src="images/fooder-weixin.jpg" height="92" width="92" alt="">
+            </div>
+            <div class="fooder-code-content l-left">
+                <span>扫一扫，<br>关注化时代服务号，一切尽在掌握中...</span>
+            </div>
+        </div>
+        <div class="fooder-mian-code l-left">
+            <div class="fooder-code-img l-left">
+                <img src="images/fooder-weixin.jpg" height="92" width="92" alt="">
+            </div>
+            <div class="fooder-code-content l-left">
+                <span>APP下载<br>即将开通，畅享随时随地交易方式...</span>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="l-fooder-like">
+        <a href="">关于我们 | </a>
+        <a href="">公司动态 |</a>
+        <a href="">诚聘英才 |</a>
+        <a href="">联系我们 |</a>
+        <a href="">法律声明 |</a>
+        <a href="">友情链接</a>
+    </div>
+    <div class="l-fooder-copyright">
+        <p>COPYRIGHT © 化时代科技  www.ehuashidai.com  粤ICP备00000000000号 </p>
+    </div>
+    <div class="l-fooder-img">
+        <img src="images/icon-food-state.jpg" height="47" width="381" alt="">
+    </div>
+</div> <!-- end fooder  -->
+</div> <!-- end container -->
 </body>
 <script src="js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/jquery.poshytip.min.js" type="text/javascript" charset="utf-8"></script><!-- tip类 -->
 <script src="js/marquee.js" type="text/javascript" charset="utf-8"></script><!-- 滚动切换类 -->
 <script src="js/echarts-all.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/echarts.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/mian.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+
+</script>
 </html>
