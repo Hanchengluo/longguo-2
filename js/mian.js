@@ -57,7 +57,7 @@ $(function() {
     });
   })
 // tip
-$('.shop-tip').poshytip({
+$('.shop-tip,.f-concern-on').poshytip({
   className: 'tip-twitter',
   showTimeout: 1,
   alignTo: 'target',
