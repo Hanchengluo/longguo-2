@@ -1944,8 +1944,20 @@ textarea:-ms-input-placeholder {
 .l-new-list li {
   width: 940px;
   margin: 0 auto;
+  padding: 0 9px;
   height: 48px;
   line-height: 48px;
+}
+.l-new-list li:hover {
+  background: #F6782C;
+}
+.l-new-list li:hover .u-list-number-bg {
+  background: url(../../images/icon-list-number-bgh.gif) left center no-repeat;
+  color: #F6782C;
+}
+.l-new-list li:hover .u-list-a,
+.l-new-list li:hover em {
+  color: #fff;
 }
 .l-new-list .u-list-number-bg {
   float: left;
