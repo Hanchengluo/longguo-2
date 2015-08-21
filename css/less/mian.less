@@ -362,6 +362,7 @@ textarea {
 .column-content-tit{
         background:#F8F8F8;
         border-right: #ddd 1px solid;
+        border-left: #ddd 1px solid;
         padding-left: 10px;
         font-size: 24px;
         font-weight: bold;
@@ -378,11 +379,13 @@ textarea {
 
         li{
             float: left;
+            text-align: left;
             .centered-line(46px);
-            text-align: center;
+            .ellipsis();
         }
         .u-c1-row1{
             width: 48px;
+            text-align: center;
         }
         .u-c1-row2{
             width: 88px;
@@ -419,6 +422,7 @@ textarea {
     .est-layout-page(742px);
     .con-shoplist2{
         height: 230px;
+        .ellipsis();
         .clearfix();
         .border-bottom{
             width: 720px;
@@ -431,8 +435,9 @@ textarea {
         padding: 0 10px;
         li{
             float: left;
-            .centered-line(46px);
             text-align: center;
+            .centered-line(46px);
+            .ellipsis();
         }
         .u-c1-row1{
             width: 78px;
@@ -468,6 +473,7 @@ textarea {
             float: left;
             text-align: center;
             .centered-line(42px);
+            .ellipsis();
         }
         .u-c1-row1{
             width: 74px;
