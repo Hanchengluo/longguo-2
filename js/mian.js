@@ -59,21 +59,22 @@ $(function() {
 // tip
 $('.shop-tip,.f-concern-on').poshytip({
   className: 'tip-twitter',
-  showTimeout: 1,
+  showTimeout: 100,
+  showOn: 'hover',
   alignTo: 'target',
   alignX: 'center',
   offsetY: 5,
-  allowTipHover: false,
-  fade: false,
-  slide: false
+  // allowTipHover: false,
+  // fade: false,
+  // slide: false
 });
 // form tip
-$('#demo-form-name').poshytip({
-  className: 'tip-yellowsimple',
+$('.register-second-tip').poshytip({
+  className: 'tip-twitter',
   showOn: 'focus',
   alignTo: 'target',
   alignX: 'right',
   alignY: 'center',
-  offsetX: 5,
+  offsetX: 12,
   showTimeout: 100
 });

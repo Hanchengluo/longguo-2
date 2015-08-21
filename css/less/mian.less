@@ -1,6 +1,7 @@
 // quick import
 @import "./all.less";
-
+@import "./login.less";
+@import "./register.less";
 // override global variables
 @support-ie-version: 10;
 @default-font-size: 14px;
@@ -1186,7 +1187,7 @@ font-size: 12px;
         background: url(../../images/icon-side-qq.png) 14px center #0075c2  no-repeat;
     }
     .rengou{
-        width: 88px;
+        padding: 0 20px;
         height: 40px;
         text-align: center;
         color: #fff;
@@ -1194,7 +1195,7 @@ font-size: 12px;
         background:#F56915;
     }
     .huanpan{
-        width: 88px;
+        padding: 0 20px;
         height: 40px;
         text-align: center;
         color: #fff;
@@ -1238,7 +1239,11 @@ font-size: 12px;
     padding: 8px 26px;
     width: 262px;
 }
-
+// 认购页面
+.l-subscribe-page{
+    min-height:400px;
+    padding: 34px 50px;
+}
 // 行业资讯
 // 行业资讯列表页面
 .l-new-box{
@@ -1516,10 +1521,62 @@ font-size: 12px;
     }
 }
 
+// 用户注册页面
+.l-register-page{
+    padding: 38px 0 40px 0;
+}
+.u-register-status{
+    margin-bottom: 36px;
+}
+.u-register-box{
+    .clearfix();
+}
+.l-register-left{
+    width: 780px;
+    height: 386px;
+    border-right: #ddd solid 1px;
+}
+.l-register-text{
+    width: 355px;
+    padding:30px 40px 0 24px;
+    h2{
+        font-weight: bold;
+        color: #535353;
+        font-size: 16px;
+        .centered-line(30px);
+    }
+    h3{
+        font-weight: bold;
+        color: #535353;
+        font-size: 16px;
+        border-top: #ddd solid 1px;
+        .centered-line(48px);
+    }
+    p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .f-now-login{
+        display: inline-block;
+        width: 216px;
+        margin-top: 34px;
+        margin-bottom: 34px;
+        color: #fff;
+        background: @lan;
+        font-size: 24px;
+        text-align: center;
+        font-weight: bold;
+        .centered-line(48px);
+        .border-radius(5px);
+    }
 
-
-
+}
 // 弹出窗体样式
+.layui-lan{
+     border-radius: 8px;
+    overflow: hidden;
+    border: rgba(51, 51, 51, 0.53) solid 6px;
+}
 .layui-layer-title{
         font-size: 20px !important;
         color: #333333;
