@@ -81,20 +81,108 @@
                 </div>
                 <div class="l-user-message l-left">
                     <ul>
-                        <li><label>欢迎您：</label>黄老板 [<a href="">修改信息</a>] </li>
+                        <li><label>欢迎您：</label>黄老板 [<a class="popup-edituserinfo" href="javascript:void(0)">修改信息</a>] </li>
                         <li><label>资料认证：</label><a href="">已认证（或未上传）</a></li>
                         <li><label>身  份：</label>认证交易商（或交易商）</li>
-                        <li> <a href="">添加助理账号</a></li>
+                        <li> <a class="popup-addmanagemen" href="javascript:void(0)">添加助理账号</a></li>
                         <li><label>账  户：</label>18924918891  </li>
-                        <li><a href="">管理助理账号</a></li>
+                        <li><a class="popup-managemen" href="javascript:void(0)">管理助理账号</a></li>
                     </ul>
                 </div>
             </div>
             <div class="l-user-home-order">
-
+                <div class="l-order-icon l-left">
+                </div>
+                <div class="l-order-info l-left">
+                    <div class="u-order-tit">
+                        <a class="popup-counteroffer-message" href="javascript:void(0)">还盘信息（<em class="font-color-cheng">10</em>）</a>
+                        <a href="">执行中订单（<em class="font-color-cheng">10</em>）</a>
+                        <a href="">代办合同（<em class="font-color-cheng">10</em>）</a>
+                    </div>
+                    <div class="u-order-recent">
+                        <p>最近交易：</p>
+                        <table width="928">
+                          <tr>
+                            <th width="143" height="40" scope="col">订单号</th>
+                            <th width="94"  scope="col">品名</th>
+                            <th width="125" scope="col">厂家</th>
+                            <th width="125" scope="col">价格(元/吨)</th>
+                            <th width="106" scope="col">数量(吨)</th>
+                            <th width="97"  scope="col">交货地</th>
+                            <th width="108" scope="col">订单状态</th>
+                            <th width="104" scope="col">操作</th>
+                          </tr>
+                          <tr>
+                            <td height="40">PA150824123</td>
+                            <td>PA</td>
+                            <td>天津大沽</td>
+                            <td class="font-color-cheng">5650 </td>
+                            <td>300</td>
+                            <td> 送到</td>
+                            <td>执行中</td>
+                            <td><a class="font-color-cheng" href="../shop-infob.html">详情</a></td>
+                          </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
             <div class="l-user-home-eidt">
+                <div class="u-eidt-icon l-left">
 
+                </div>
+                <div class="l-eidt-info l-left">
+                    <div class="o-eidt-tit">
+                        <a class="u-supply" href="../u-supply.html">我要发布供应</a>
+                        <a class="u-purchase" href="../u-purchase.html">我要发布需求</a>
+                    </div>
+                    <div class="u-eidt-recent ">
+                        <p>最近交易：</p>
+                        <table width="928">
+                          <tr>
+                            <th width="143" height="40" scope="col">产品编号</th>
+                            <th width="94"  scope="col">品名</th>
+                            <th width="125" scope="col">厂家</th>
+                            <th width="125" scope="col">价格(元/吨)</th>
+                            <th width="106" scope="col">数量(吨)</th>
+                            <th width="97"  scope="col">交货地</th>
+                            <th width="108" scope="col"> 报价有效期</th>
+                            <th width="104" scope="col">操作</th>
+                          </tr>
+                          <tr>
+                            <td height="40">PA150824123</td>
+                            <td>PA</td>
+                            <td>天津大沽</td>
+                            <td class="font-color-cheng">5650 </td>
+                            <td>300</td>
+                            <td> 送到</td>
+                            <td>07-08</td>
+                            <td><a class="font-color-cheng" href="">修改</a></td>
+                          </tr>
+                        </table>
+                        <table width="928">
+                          <tr>
+                            <th width="143" height="40" scope="col">产品编号</th>
+                            <th width="94"  scope="col">品名</th>
+                            <th width="125" scope="col">厂家</th>
+                            <th width="125" scope="col">价格(元/吨)</th>
+                            <th width="106" scope="col">数量(吨)</th>
+                            <th width="97"  scope="col">交货地</th>
+                            <th width="108" scope="col">报价有效期</th>
+                            <th width="104" scope="col"> 操作</th>
+                          </tr>
+                          <tr>
+                            <td height="40">PA150824123</td>
+                            <td>PA</td>
+                            <td>天津大沽</td>
+                            <td><input class="font-color-cheng" type="text" name="time" value="5650" placeholder=""> </td>
+                            <td><input type="text" name="time" value="300" placeholder=""></td>
+                            <td> 送到</td>
+                            <td><input type="text" name="time" value="08-08" placeholder=""></td>
+                            <td><a class="f-new-release font-color-cheng" href="javascript:void(0)">新的发布</a></td>
+                          </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div> <!-- end mian -->
@@ -115,5 +203,58 @@
 
 </body>
 <script src="../js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/layer.js" type="text/javascript" charset="utf-8"></script><!-- popup -->
 <script src="../js/mian.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$('.popup-managemen').on('click', function(){
+    layer.open({
+        type: 2,
+        skin: 'layui-user',
+        title: '管理助理账号',
+        maxmin: false,
+        shade: 0,
+        shadeClose: true, //点击遮罩关闭层
+        area : ['657px' , '458px'],
+        content: '../iframe/u-managemenlist.html'
+    });
+});
+
+$('.popup-addmanagemen').on('click', function(){
+    layer.open({
+        type: 2,
+        skin: 'layui-user',
+        title: '添加助理账号',
+        maxmin: false,
+        shade: 0,
+        shadeClose: true, //点击遮罩关闭层
+        area : ['657px' , '458px'],
+        content: '../iframe/u-addmanagemen.html'
+    });
+});
+$('.popup-counteroffer-message').on('click', function(){
+    layer.open({
+        type: 2,
+        skin: 'layui-user',
+        title: '你有新的还盘信息，请联系撮合员！',
+        maxmin: false,
+        shade: 0,
+        shadeClose: true, //点击遮罩关闭层
+        area : ['657px' , '458px'],
+        content: '../iframe/u-counteroffermessage.html'
+    });
+});
+$('.popup-edituserinfo').on('click', function(){
+    layer.open({
+        type: 2,
+        skin: 'layui-user',
+        title: '修改基本信息',
+        maxmin: false,
+        shade: 0,
+        shadeClose: true, //点击遮罩关闭层
+        area : ['657px' , '458px'],
+        content: '../iframe/u-edituserinfo.html'
+    });
+});
+</script>
+
 </html>
