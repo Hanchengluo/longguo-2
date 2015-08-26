@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>会员中心我的账号·龙国贸易</title>
+    <title>手机管理·会员中心我的账号·龙国贸易</title>
     <meta name="keywords" content='塑料原料交易,PVC,PP,PE,ABS,PS,通用塑料交易'/>
     <meta name="description" content='找塑料网是专注于PVC PP PE ABS PS EVA等通用塑料原料交易平台，公司拥有专业的塑料原料交易员为塑料行业提供最专业的塑料原料交易服务。找塑料网，帮您找最便宜的货！' />
     <link rel="stylesheet" href="../css/css/mian.css">
@@ -69,52 +69,47 @@
         </div>
     </div> <!-- end header-user -->
     <div class="l-map-user">
-        <h2>我的账号</h2><em>></em><em>基本资料</em>
+        <h2>我的账号</h2><em>></em><em>账户安全</em><em>></em><em>手机管理</em>
     </div>
     <div class="mian">
         <div class="l-myaccount-page">
             <div class="l-myaccount-left l-left">
-                <h2 class="u-myaccount-jbxx active"><a href="u-myaccounthome.html">基本信息</a><em>></em></h2>
+                <h2 class="u-myaccount-jbxx"><a href="u-myaccounthome.html">基本信息</a><em>></em></h2>
                 <h2 class="u-myaccount-zlrz"><a href="u-myaccountcertificate.html">资料认证</a><em>></em></h2>
-                <h2 class="u-myaccount-zhaq"><a href="javascript:void(0)">资料认证</a></h2>
+                <h2 class="u-myaccount-zhaq active"><a href="javascript:void(0)">资料认证</a></h2>
                 <ul>
-                    <li><a href="u-myaccountpassword1.html">修改密码</a><em>></em></li>
-                    <li><a href="">保密邮箱</a><em>></em></li>
-                    <li><a href="">手机管理</a><em>></em></li>
+                    <li><a  href="u-myaccountpassword1.html">修改密码</a><em>></em></li>
+                    <li><a href="u-myaccountemail.html">保密邮箱</a><em>></em></li>
+                    <li class="li-active"><a href="u-myaccountphone.html">手机管理</a><em>></em></li>
                 </ul>
             </div>
             <div class="l-myaccount-right l-right">
-                <div class="u-basicsinformation-list">
-                    <ul>
-                        <li>
-                            <label>手机号码：</label>
-                            <span>注册账户13766885266，绑定邮箱后可用邮箱账户登录 </span>
-                            <a href="">更换手机号码</a>
-                        </li>
-                        <li>
-                            <label>登录密码：</label>
-                            <span>登录化时代时需要输入的密码</span>
-                            <a href="">修改</a>
-                        </li>
-                        <li>
-                            <label>真实姓名：</label>
-                            <span>林凡心 </span>
-                        </li>
-                        <li>
-                            <label>公司名称：</label>
-                            <span>龙国化工公司 </span>
-                            <a href="javascript:void(0)">已认证</a>
-                        </li>
-                        <li>
-                            <label>常用邮箱：</label>
-                            <span>sunnylbc@126.com (或您尚未填写常用邮箱)  </span>
-                            <a href="">已认证或设置</a>
-                        </li>
-                        <li>
-                            <label>会员身份：</label>
-                            <span>交易商（包括供应商和采购商，可进行供应和采购交易活动</span>
-                        </li>
-                    </ul>
+                <div class="l-changephone-page">
+                    <div class="l-changephone-input">
+                        <h2>手机管理</h2>
+                        <p>当前状态：<em class="font-color-cheng">18924918891</em></p>
+                        <p>功能简述：手机号码为注册账号如果变更号码或者丢失，可通过本功能更换手机号码</p>
+                        <a class="modify" href="">更换号码</a>
+                        <div class="f-confirmmodify">
+                        <div class="form">
+                            <div class="div-name">
+                            <label for="phone">手机号码：</label><input type="text" id="phone" class="infos" placeholder="请输入手机号">
+                            </div>
+                            <div class="div-ranks">
+                                <label for="ranks">验证码：</label><input type="text" id="ranks" class="infos inputs"><span class="yzm"><img src="../word/yanzhengma.gif" height="34" width="80" alt=""></span>
+                                <a href="" title="看不清楚，换一张">看不清楚，换一张</a>
+                            </div>
+                            <div class="div-phone">
+                                <label for="name">短信验证码：</label><input type="text" id="name" class="infos inputs" placeholder="请输入验证码">
+                                <a href="javascript:;" class="send1" onclick="sends.send();">免费获取短信验证码</a>
+                            </div>
+                            <div class="div-conform">
+                                <a href="" class="conform">确定修改</a>
+                            </div>
+                        </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -136,5 +131,4 @@
 
 </body>
 <script src="../js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="../js/mian.js" type="text/javascript" charset="utf-8"></script>
 </html>

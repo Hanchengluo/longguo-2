@@ -111,140 +111,107 @@
     </div>
     <div class="mian">
         <div class="l-supply-input">
-            <div class="l-shopinfo-mleft l-left">
-                <h2>请填写采购信息</h2>
-                <div class="l-subscribe-page">
-                    <form method="get" id="registerform">
-                        <div class="form">
-                            <div class="div-name supply-input-w l-left">
-                                <label for="tradename">品名：</label>
-                                <select class="infos selectw select-height" id="tradename">
-                                    <option value="0">请选择</option>
-                                    <option value="1">PA</option>
-                                    <option value="2">POD</option>
-                                    <option value="3">DINP</option>
-                                    <option value="2">DOTP</option>
-                                    <option value="2">ESO</option>
-                                    <option value="2">PVC</option>
-                                    <option value="2">PE</option>
-                                </select><em>*</em>
-                            </div>
-                            <div class="div-name supply-input-w l-left">
-                                <label for="grade">等级：</label>
-                                <select class="infos selectw select-height" id="grade">
-                                    <option value="0">选择等级</option>
-                                    <option value="1">优等品</option>
-                                    <option value="2">一等品</option>
-                                    <option value="3">二等品</option>
-                                    <option value="4">三等品</option>
-                                </select><em>*</em>
-                            </div>
-                            <div class="div-name supply-input-w l-left">
-                                <label for="model">型号：</label>
-                                <select class="infos selectw select-height" id="model">
-                                    <option value="0">选择型号</option>
-                                    <option value="1">型号1</option>
-                                    <option value="2">型号2</option>
-                                    <option value="3">型号3</option>
-                                    <option value="4">型号4</option>
-                                </select><em>*</em>
-                            </div>
-                            <div class="div-name supply-input-w l-left">
-                                <label for="number">采购数量：</label><input type="number" name="number" id="number" class="infos inputs register-second-tip" title="输入您采购的总数量，单位：吨" /><em>*</em>
-                            </div>
-                            <div class="div-name supply-input-w l-left">
-                                <label for="standard">规格：</label>
-                                <select class="infos selectw select-height" id="standard">
-                                    <option value="0">选择规格</option>
-                                    <option value="1">规格：1</option>
-                                    <option value="2">规格：2</option>
-                                    <option value="3">规格：3</option>
-                                    <option value="4">规格：4</option>
-                                </select><em>*</em>
-                            </div>
-                            <div class="div-name supply-input-w l-left">
-                                <label for="price">预计价格：</label><input type="number" name="price" id="price" class="infos inputs register-second-tip" title="输入您的预计每吨的价格，单位：元"/><em>*</em>
-                            </div>
-                            <div class="div-name supply-input-w l-left">
-                                <label for="producing">产地：</label>
-                                <select class="infos selectw select-height" id="producing">
-                                    <option value="0">选择产地</option>
-                                    <option value="1">华南地区</option>
-                                    <option value="2">华东地区</option>
-                                    <option value="3">进口</option>
-                                </select><em>*</em>
-                            </div>
-                            <div class="div-name supply-input-w l-left">
-                                <label for=" ValidDate">需求有效期：</label><input type="datetime-local" name="ValidDate" id="ValidDate" class="infos inputs register-second-tip" title="填写你需求在什么时间之前有效，格式：2015/10/10 00:00"/>
-                            </div>
-                            <div class="div-name l-left" style="width: 100%;">
-                                <label for="deliverypoints">交货区域：</label>
-                                <select class="infos selectw select-height" id="deliverypoints">
-                                    <option value="0">华南地区</option>
-                                    <option value="1">华北地区</option>
-                                    <option value="2">其他地区</option>
-                                </select>
-                            </div>
-                            <div class="div-name supply-input-w l-left">
-                                <label for="Transportation">交货方式：</label>
-                                <select class="infos  selectw select-height" id="Transportation">
-                                    <option value="0">选择交货方式</option>
-                                    <option value="1">自提</option>
-                                    <option value="2">送达</option>
-                                </select><em>*</em>
-                            </div>
-                            <div class="div-name supply-input-w l-left">
-                                <label for=" paymentterms">付款方式：</label>
-                                <select class="infos  selectw select-height" id="paymentterms">
-                                    <option value="0">选择付款方式</option>
-                                    <option value="1">转账</option>
-                                    <option value="2">到付</option>
-                                </select><em>*</em>
-                            </div>
-                            <div class="div-name l-left">
-                                <label for="portaddress" style="font-size: 16px;">仓库/港口地址：</label><input type="text" name="portaddress" id="portaddress" class="infos register-second-tip " title="输入您的详细供货仓库/港口详细地址"/ style="width:540px;"><em>*</em>
-                            </div>
-                            <div class="div-name l-left">
-                                <label for="comment">备注说明：</label>
-                                <textarea class="infos l-left" name="buyer-message" style="height:130px;width: 540px;resize: none;" id="comment"></textarea>
-                            </div>
-                            <div class="div-conform l-left">
-                                <a href="" class="conform">提交</a>
-                            </div>
+            <h2>请填写采购信息</h2>
+            <div class="l-subscribe-page">
+                <form method="get" id="registerform">
+                    <div class="form">
+                        <div class="div-name supply-input-w l-left">
+                            <label for="tradename">品名：</label>
+                            <select class="infos selectw select-height" id="tradename">
+                                <option value="0">请选择</option>
+                                <option value="1">PA</option>
+                                <option value="2">POD</option>
+                                <option value="3">DINP</option>
+                                <option value="2">DOTP</option>
+                                <option value="2">ESO</option>
+                                <option value="2">PVC</option>
+                                <option value="2">PE</option>
+                            </select><em>*</em>
                         </div>
-                    </form>
-                </div>
-            </div>
-            <div class="l-shopinfo-mright l-right">
-                <h2>协助撮合</h2>
-                <table width="266">
-                  <tr>
-                    <td width="81" height="50">撮合人员：</td>
-                    <td width="173">凌霄花</td>
-                  </tr>
-                  <tr>
-                    <td height="50">员工编号：</td>
-                    <td>S001</td>
-                  </tr>
-                  <tr>
-                    <td height="50">联系方式：</td>
-                    <td>18924918891</td>
-                  </tr>
-                  <tr>
-                    <td height="50">Q Q 咨询：</td>
-                    <td><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=893982980&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:893982980:41 &r=0.28504395019850864" alt="点击这里给我发消息" title="点击这里给我发消息"></a></td>
-                  </tr>
-                  <tr>
-                    <td height="134" valign="top"><p style="height:134px;">微 信 号：</p></td>
-                    <td valign="top"><p style="height:30px;">sda234123</p>
-                    <p><img src="images/icon-shopinfo-mrightqq.gif" height="93" width="91" alt=""></p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td height="50">交易热线：</td>
-                    <td ><em class="font-color-cheng" style="font-weight: bold">400-894-7008</em></td>
-                  </tr>
-                </table>
+                        <div class="div-name supply-input-w l-left">
+                            <label for="grade">等级：</label>
+                            <select class="infos selectw select-height" id="grade">
+                                <option value="0">选择等级</option>
+                                <option value="1">优等品</option>
+                                <option value="2">一等品</option>
+                                <option value="3">二等品</option>
+                                <option value="4">三等品</option>
+                            </select><em>*</em>
+                        </div>
+                        <div class="div-name supply-input-w l-left">
+                            <label for="model">型号：</label>
+                            <select class="infos selectw select-height" id="model">
+                                <option value="0">选择型号</option>
+                                <option value="1">型号1</option>
+                                <option value="2">型号2</option>
+                                <option value="3">型号3</option>
+                                <option value="4">型号4</option>
+                            </select><em>*</em>
+                        </div>
+                        <div class="div-name supply-input-w l-left">
+                            <label for="number">采购数量：</label><input type="number" name="number" id="number" class="infos inputs register-second-tip" title="输入您采购的总数量，单位：吨" /><em>*</em>
+                        </div>
+                        <div class="div-name supply-input-w l-left">
+                            <label for="standard">规格：</label>
+                            <select class="infos selectw select-height" id="standard">
+                                <option value="0">选择规格</option>
+                                <option value="1">规格：1</option>
+                                <option value="2">规格：2</option>
+                                <option value="3">规格：3</option>
+                                <option value="4">规格：4</option>
+                            </select><em>*</em>
+                        </div>
+                        <div class="div-name supply-input-w l-left">
+                            <label for="price">预计价格：</label><input type="number" name="price" id="price" class="infos inputs register-second-tip" title="输入您的预计每吨的价格，单位：元"/><em>*</em>
+                        </div>
+                        <div class="div-name supply-input-w l-left">
+                            <label for="producing">产地：</label>
+                            <select class="infos selectw select-height" id="producing">
+                                <option value="0">选择产地</option>
+                                <option value="1">华南地区</option>
+                                <option value="2">华东地区</option>
+                                <option value="3">进口</option>
+                            </select><em>*</em>
+                        </div>
+                        <div class="div-name supply-input-w l-left">
+                            <label for=" ValidDate">需求有效期：</label><input type="datetime-local" name="ValidDate" id="ValidDate" class="infos inputs register-second-tip" title="填写你需求在什么时间之前有效，格式：2015/10/10 00:00"/>
+                        </div>
+                        <div class="div-name l-left" style="width: 100%;">
+                            <label for="deliverypoints">交货区域：</label>
+                            <select class="infos selectw select-height" id="deliverypoints">
+                                <option value="0">华南地区</option>
+                                <option value="1">华北地区</option>
+                                <option value="2">其他地区</option>
+                            </select>
+                        </div>
+                        <div class="div-name supply-input-w l-left">
+                            <label for="Transportation">交货方式：</label>
+                            <select class="infos  selectw select-height" id="Transportation">
+                                <option value="0">选择交货方式</option>
+                                <option value="1">自提</option>
+                                <option value="2">送达</option>
+                            </select><em>*</em>
+                        </div>
+                        <div class="div-name supply-input-w l-left">
+                            <label for=" paymentterms">付款方式：</label>
+                            <select class="infos  selectw select-height" id="paymentterms">
+                                <option value="0">选择付款方式</option>
+                                <option value="1">转账</option>
+                                <option value="2">到付</option>
+                            </select><em>*</em>
+                        </div>
+                        <div class="div-name l-left">
+                            <label for="portaddress" style="font-size: 16px;">仓库/港口地址：</label><input type="text" name="portaddress" id="portaddress" class="infos register-second-tip " title="输入您的详细供货仓库/港口详细地址"/ style="width:540px;"><em>*</em>
+                        </div>
+                        <div class="div-name l-left">
+                            <label for="comment">备注说明：</label>
+                            <textarea class="infos l-left" name="buyer-message" style="height:130px;width: 540px;resize: none;" id="comment"></textarea>
+                        </div>
+                        <div class="div-conform l-left">
+                            <a href="" class="conform">提交</a>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
 

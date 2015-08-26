@@ -28,7 +28,7 @@ $(function() {
             prevElement: $('#u-prev'),
             nextElement: $('#u-next')
         });
-    })
+    });
 // tab
 $(function() {
   function tabs(tabTit, on, tabCon) {
@@ -55,7 +55,7 @@ $(function() {
       stepLen: 3,
       type: 'vertical'
     });
-  })
+  });
 // tip
 $('.shop-tip,.f-concern-on').poshytip({
   className: 'tip-twitter',
