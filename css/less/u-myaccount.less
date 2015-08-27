@@ -13,6 +13,10 @@
         &:hover{
             a,em{color: #2193db !important;}
         }
+        a{
+            display: block;
+            padding-left: 52px;
+        }
         em{
             float: right;
         }
@@ -20,28 +24,63 @@
     .li-active{
         a,em{color: #2193db !important;}
     }
-    .u-myaccount-jbxx{
+    .u-myaccount-jbxx a{
         background: url(../../images/user/icon_message_nor.png) 22px  center no-repeat;
     }
-    .u-myaccount-jbxx:hover,.active{
+    .u-myaccount-jbxx a:hover,.u-myaccount-jbxx .active{
         background: url(../../images/user/icon_message_hover.png) 22px  center no-repeat;
-        a,em{color: #2193db;}
+        color:#2193db;
+        em{color: #2193db;}
 
     }
-    .u-myaccount-zlrz{
+    .u-myaccount-zlrz a{
         background: url(../../images/user/icon_approve_nor.png) 22px  center no-repeat;
     }
-    .u-myaccount-zlrz:hover,.active{
+    .u-myaccount-zlrz a:hover, .u-myaccount-zlrz .active{
         background: url(../../images/user/icon_approve_hover.png) 22px  center no-repeat;
-        a,em{color: #2193db;}
+         color:#2193db;
+        em{color: #2193db;}
 
     }
-    .u-myaccount-zhaq{
+    .u-myaccount-zhaq a{
         background: url(../../images/user/icon_message_nor.png) 22px  center no-repeat;
     }
-    .u-myaccount-zhaq:hover,.active{
+    .u-myaccount-zhaq a:hover,.u-myaccount-zhaq .active{
         background: url(../../images/user/icon_message_hover.png) 22px  center no-repeat;
-        a,em{color: #2193db;}
+         color:#2193db;
+        em{color: #2193db;}
+    }
+    .u-myrelease-fbxq a{
+        background: url(../../images/user/icon_publish_nor.png) 22px  center no-repeat;
+    }
+    .u-myrelease-fbxq a:hover,.u-myrelease-fbxq .active {
+        background: url(../../images/user/icon_publish_hover.png) 22px  center no-repeat;
+          color:#2193db;
+        em{color: #2193db;}
+    }
+    .u-myrelease-fbgy a{
+        background: url(../../images/user/icon_publish_nor.png) 22px  center no-repeat;
+    }
+    .u-myrelease-fbgy a:hover,.u-myrelease-fbgy .active {
+        background: url(../../images/user/icon_publish_hover.png) 22px  center no-repeat;
+          color:#2193db;
+        em{color: #2193db;}
+    }
+    .u-myrelease-wdhp a{
+        background: url(../../images/user/icon_counter_nor.png) 22px  center no-repeat;
+    }
+    .u-myrelease-wdhp a:hover,.u-myrelease-wdhp .active {
+        background: url(../../images/user/icon_counter_hover.png) 22px  center no-repeat;
+          color:#2193db;
+        em{color: #2193db;}
+    }
+    .u-myrelease-wdgz a{
+        background: url(../../images/user/icon_attent_nor.png) 22px  center no-repeat;
+    }
+    .u-myrelease-wdgz a:hover,.u-myrelease-wdgz .active {
+        background: url(../../images/user/icon_attent_hover.png) 22px  center no-repeat;
+          color:#2193db;
+        em{color: #2193db;}
     }
 
 }
@@ -256,5 +295,148 @@
         line-height: 34px;
         font-size: 20px;
         font-weight: bold;
+    }
+}
+.l-myreleasehome-page{
+
+}
+.u-myreleasehome-tit {
+    width:978px;
+    height: 32px;
+    margin-top: 20px;
+    overflow: hidden;
+    label,select{
+        display: inline-block;
+        height: 32px;
+        line-height: 32px;
+    }
+    select{
+        margin-right: 24px;
+    }
+    .input-box{
+        width: 210px;
+        height: 32px;
+        overflow: hidden;
+        input{
+            width: 150px;
+            height: 28px;
+            line-height: 28px;
+            border:#2193DB solid  1px;
+            text-indent: 8px;
+            font-weight: bold;
+        }
+        .ss-bnt{
+            display: inline-block;
+            width: 58px;
+            height: 32px;
+            line-height: 32px;
+            border:none;
+            text-align: center;
+            font-weight: bold;
+            color: #fff;
+            background: #2193DB;
+        }
+    }
+    .fb-bnt{
+        display: inline-block;
+        margin-left: 24px;
+        height: 32px;
+        line-height: 32px;
+        padding: 0 12px;
+        text-align: center;
+        text-indent: 24px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        background:url(../../images/user/button_supply_bg.png) left center no-repeat;
+    }
+    .wd-bnt{
+        display: inline-block;
+        margin-left: 14px;
+        height: 32px;
+        line-height: 32px;
+        padding: 0 2px;
+        text-align: center;
+        text-indent: 24px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        background: #f56915;
+        border-radius: 4px;
+    }
+
+}
+.u-myreleasehome-list{
+    padding-top: 20px;
+    table{
+        th{
+            border-top:#ddd solid 1px;
+            background: #f5f5f5;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+        td{
+            border-top:#ddd solid 1px;
+            text-align: center;
+            font-weight: 400;
+        }
+    }
+    .delete-bnt{
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        text-indent: -9999px;
+        background: url(../../images/user/icon_delete_nor.png) center center no-repeat;
+        &:hover{
+            background: url(../../images/user/icon_delete_hover.png) center center no-repeat;
+        }
+    }
+}
+.u-myreleasehomeinfo-tit{
+    h2{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    a{
+        display: inline-block;
+        padding:6px 23px;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        background: #f56915;
+        border-radius: 3px;
+    }
+}
+.u-myreleasehomeinfo-box{
+    padding: 30px 0;
+    h2{
+        border-bottom: #ddd solid 1px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #535353;
+        height: 56px;
+        line-height: 56px;
+    }
+    .product {
+        padding: 10px 0;
+        line-height: 28px;
+        color: #535353;
+    }
+    .u-myreleasehomeinfo-table{
+        border:#ddd solid 1px;
+        th{
+            border-bottom: #ddd solid 1px;
+            background: #f5f5f5;
+            text-align: center;
+            font-size: 20px;
+            color: #333;
+            font-weight: bold;
+        }
+        td{
+            text-align: center;
+            font-size: 20px;
+        }
     }
 }
