@@ -149,6 +149,40 @@ textarea {
         height: 67px;
         float: left;
         text-align: center;
+        &:hover{
+            p{
+                color: @lan;
+            }
+            .weixin{
+                background: url(../../images/icon-weixin-hover.jpg) top center no-repeat;
+            }
+            .mobile{
+                background: url(../../images/icon-app-hover.jpg) top center no-repeat;
+            }
+            .mydeal{
+                background: url(../../images/icon-user-hover.jpg) top center no-repeat;
+            }
+        }
+        a{
+            display: inline-block;
+            width: 37px;
+            height: 37px;
+        }
+        .weixin{
+            background: url(../../images/icon-weixin.jpg) top center no-repeat;
+        }
+        .mobile{
+            background: url(../../images/icon-app.jpg) top center no-repeat;
+            &:hover{
+                background: url(../../images/icon-app-hover.jpg) top center no-repeat;
+            }
+        }
+        .mydeal{
+            background: url(../../images/icon-user.jpg) top center no-repeat;
+            &:hover{
+                background: url(../../images/icon-user-hover.jpg) top center no-repeat;
+            }
+        }
         p{
 
             margin-top: 8px;
@@ -166,6 +200,8 @@ textarea {
             }
 
     }
+
+
 }
 .l-header-bottom{
     width: 100%;
