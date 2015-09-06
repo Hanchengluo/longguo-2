@@ -11,13 +11,11 @@
 @default-text-color:#6c6c6c;
 @default-input-placeholder-color:#999;
 @default-base-font-family:"SimSun", Arial, sans-serif;
-@default-heading-font-family:"Helvetica Neue", Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+@default-heading-font-family:"Helvetica Neue", Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif,"SimSun", sans-serif;;
 @default-old-ie-heading-font-family:"Microsoft YaHei", Arial, sans-serif;
 @default-code-font-family:Monaco, Consolas, monospace;
 @default-border-radius:5px;
 @default-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25);
-// global scope
-.global-normalize-opentype();
 // global scope
 .global-reset();
 // global scope
@@ -26,12 +24,12 @@
 // .global-normalize();
 
 body {
-    font-family:"SimSun" Arial, sans-serif;;
     .reset-body();
     .font-color-hei();
     .reset-box-model();
     .reset-font();
     .font-color-hui();
+    font-family:Tahoma,Arial,"Helvetica Neue","Hiragino Sans GB",Simsun,sans-self;
 }
 a{
     .font-color-hui();
