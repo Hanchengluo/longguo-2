@@ -312,7 +312,7 @@ textarea {
         margin: 10px auto 0 auto;
         padding-left: 40px;
         border:1px #ddd solid;
-        font-size: 14px;
+        font-size: 16px;
         .border-radius(5px;);
         // background: url(../../images/icon-input-bg.gif) center center no-repeat;
     }
@@ -417,6 +417,7 @@ textarea {
         li{
             float: left;
             text-align: left;
+            color: #555555;
             .centered-line(46px);
             .ellipsis();
         }
@@ -606,7 +607,7 @@ textarea {
 .l-main-column-new{
     height: 350px;
     margin-top:28px;
-    margin-bottom: 28px;
+    margin-bottom: 35px;
     border:#ddd 1px solid;
     .est-layout-page(1198px);
 
@@ -813,12 +814,12 @@ font-size: 12px;
 }
 /*weixin */
 #box-kefu {
-      position: fixed;
-      right: 0;
-      bottom:20px;
-      width: 115px;
-      height: 170px;
-      z-index: 99999;
+    position: fixed;
+    right: 0;
+    bottom: 4px;
+    width: 128px;
+    height: 224px;
+    z-index: 99999;
     // _position: absolute;
     // _top: expression(eval(document.documentElement.scrollTop+100));
 }
@@ -827,7 +828,7 @@ font-size: 12px;
     top: 3px;
     right: 6px;
     width: 115px;
-    height: 174px;
+    height: 220px;
     overflow:hidden;
 }
 #box-kefu .kefu-open .close {
@@ -872,11 +873,12 @@ font-size: 12px;
     }
     em{
         padding-right: 6px;
+        color: #666666;
     }
 }
 .l-screen-column{
     margin-top: 18px;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
     .clearfix();
 }
 .screen-column-tit{
@@ -911,7 +913,7 @@ font-size: 12px;
     .edit-buy{
         display: inline-block;
         margin-top: 4px;
-        width:154px;
+        padding: 0 10px;
         height: 34px;
         line-height: 34px;
         text-align: center;
@@ -920,6 +922,7 @@ font-size: 12px;
         font-weight: 600;
         color: #fff;
         background: url(../../images/icon-side-edit.png) #F56915 12px center no-repeat ;
+        .border-radius(3px);
     }
 }
 .screen-column-mian{
@@ -928,6 +931,7 @@ font-size: 12px;
     .screen-row{
         width: 100%;
         height: 52px;
+        color: #555;
         .clearfix();
         a{
             float: left;
@@ -1010,7 +1014,8 @@ font-size: 12px;
         width: 70px;
         height: 28px;
         border:#ddd solid 1px;
-        font-size: 14px;
+        font-size: 16px;
+        color: #666666;
         margin-right: 6px;
     }
     .price-line{
@@ -1110,6 +1115,7 @@ font-size: 12px;
     li{
         float: left;
         text-align: center;
+        color: #555555;
         .centered-line(50px);
     }
     .l-shoplist-row1{
@@ -1166,7 +1172,7 @@ font-size: 12px;
     padding: 0 11px;
 }
 .l-shoplist-page{
-    margin: 16px 0 50px 0;
+    margin: 16px 0 45px 0;
     font-size: 16px;
     .clearfix();
     a{
@@ -1230,9 +1236,10 @@ font-size: 12px;
 .l-shopinfo-tit{
     height: 85px;
     margin: 26px auto;
-    padding: 0 46px;
+    padding: 0 0 0 46px;
     border: #ddd solid 2px;
     border-top: @lan solid 2px;
+    .clearfix();
     .qq{
         display:inline-block;
         width:158px;
@@ -1519,13 +1526,17 @@ font-size: 12px;
 }
 .new-info-abstract{
     font-size:14px;
-    color: #878787;
+    color: #888;
     text-align: center;
     border-bottom: #ddd solid 1px;
     .centered-line(48px);
 }
 .new-info-mian{
+    width: 636px;
     padding: 10px 12px;
+    color: #333;
+    font-size: 20px;
+    line-height: 28px;
 }
 .new-info-relate{
     width: 264px;
@@ -1542,6 +1553,7 @@ font-size: 12px;
         .centered-line(34px);
         .ellipsis();
         a{
+            color: #666;
             .hover-link();
             &:hover{
                 color: #f12d00;
@@ -1576,6 +1588,9 @@ font-size: 12px;
     }
     .content-info-mian{
         margin: 30px auto 40px auto;
+        color: #333;
+        font-size: 20px;
+        line-height: 28px;
     }
 }
 
@@ -1908,7 +1923,75 @@ font-size: 12px;
     }
 
 }
-
+// 团购模块
+.l-group-bnt{
+    height: 65px;
+    padding-left: 240px;
+    border:#ddd solid 2px;
+    border-top: transparent;
+    text-align: center;
+    span{
+        display: inline-block;
+        margin-top: 10px;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #535353;
+        height: 40px;
+        line-height: 40px;
+    }
+    .link{
+        width: 1px;
+        height: 40px;
+        background: #ddd;
+        border-right: #d3d3d3 solid 1px;
+    }
+    .caigou{
+        float: left;
+        padding: 0 20px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 20px;
+        line-height: 40px;
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        background: #f56915;
+        .hover-link();
+    }
+    .gongying{
+        float: left;
+        padding: 0 20px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 20px;
+        line-height: 40px;
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        background: #2294dc;
+        .hover-link();
+    }
+}
+.l-group-notice{
+    margin-bottom: 14px;
+    padding: 8px 26px 12px 26px;
+    border:#ddd solid 2px;
+    border-top: transparent;
+    h2{
+        border-bottom: #ddd solid 1px;
+        font-size: 30px;
+        font-weight: 600;
+        color: #535353;
+        height: 56px;
+        line-height: 56px;
+    }
+    .notice{
+        padding: 10px 0;
+        line-height: 28px;
+        color: #f00;
+    }
+}
 // 会员中心我的账号页面
 .l-myaccount-page{
     margin-bottom: 70px;

@@ -58,19 +58,18 @@ $(function() {
   });
 // tip
 $('.shop-tip,.f-concern-on').poshytip({
-  className: 'tip-twitter',
   showTimeout: 100,
   showOn: 'hover',
   alignTo: 'target',
   alignX: 'center',
-  offsetY: 5,
+  offsetY:-5,
+  offsetX: 112,
   // allowTipHover: false,
   // fade: false,
   // slide: false
 });
 // form tip
 $('.register-second-tip').poshytip({
-  className: 'tip-twitter',
   showOn: 'focus',
   alignTo: 'target',
   alignX: 'right',
