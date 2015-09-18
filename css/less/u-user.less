@@ -127,3 +127,122 @@
     }
 }
 
+.l-groupnotice-box{
+    background: #f5f5f5;
+    width: 656px;
+    height: 422px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.l-groupnotice-bg{
+    width: 604px;
+    height: 320px;
+    margin: 24px auto;
+    background: #fff;
+    border:#ddd solid 2px;
+    border-radius: 2px;
+}
+.l-groupnotice-list{
+    li{
+        display: block;
+        width: 560px;
+        height: 57px;
+        margin: 0 auto;
+        padding: 12px 0;
+        border-bottom: #ddd dashed 1px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        position: relative;
+        font-family: "SimHei", Arial, sans-serif;
+    }
+    a{
+        float: left;
+        color: #333;
+        &:hover{
+            color: #2294dc;
+        }
+    }
+    em{
+        position: absolute;
+        right: 12px;
+        bottom: 16px;
+        color: rgb(153,153,153);
+        font-weight: 400;
+    }
+}
+.l-groupnotice-info{
+    padding: 24px;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    font-family: "SimHei", Arial, sans-serif;
+}
+.l-groupnotice-bnt{
+    width: 604px;
+    margin: 0 auto;
+    text-align: center;
+     .clearfix();
+     em{
+        height: 30px;
+        line-height: 30px;
+     }
+     .managemeninfo-prev{
+        float: left;
+        display: inline-block;
+        width: 25px;
+        height: 30px;
+        margin: 0 5px;
+        text-indent: -99999px;
+        overflow: hidden;  
+        background: url(../../images/user/icon_next_nor.png) center center no-repeat;
+        &:hover{
+            background: url(../../images/user/icon_next_hover.png) center center no-repeat;
+        }
+     }
+     .managemeninfo-next{
+        float: left;
+        display: inline-block;
+        width: 25px;
+        height: 30px;
+        margin: 0 5px;
+        text-indent: -99999px;
+        overflow: hidden;
+        background: url(../../images/user/icon_prev_nor.png) center center no-repeat;
+        &:hover{
+            background: url(../../images/user/icon_prev_hover.png) center center no-repeat;
+        }
+     }
+     .back-list{
+        display: inline-block;
+        padding: 4px 20px;
+        border:#f56915 solid 2px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #333;
+        border-radius: 2px;
+     }
+     .bnt-c{
+        display: inline-block;
+        padding: 6px 20px;
+        background: #f56915;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 2px;
+     }
+}
+.l-groupnotice-text{
+    textarea{
+        border:none;
+        margin: 0;
+        padding: 20px;
+        width: 564px;
+        height: 280px;
+        text-align: left;
+        font-size: 18px;
+        color: #333;
+        line-height: 24px;
+    }
+}
+
