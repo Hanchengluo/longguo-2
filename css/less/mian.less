@@ -354,7 +354,7 @@ textarea {
 // main-column-shop
 .l-main-column-shop{
     margin-top: 25px;
-    height: 494px;
+    height: 494px + 80px;
     position: relative;
 
 }
@@ -818,7 +818,7 @@ font-size: 12px;
     right: 0;
     bottom: 4px;
     width: 128px;
-    height: 224px;
+    height: 174px;
     z-index: 99999;
     // _position: absolute;
     // _top: expression(eval(document.documentElement.scrollTop+100));
@@ -828,7 +828,7 @@ font-size: 12px;
     top: 3px;
     right: 6px;
     width: 115px;
-    height: 220px;
+    height: 174px;
     overflow:hidden;
 }
 #box-kefu .kefu-open .close {
@@ -2013,3 +2013,23 @@ font-size: 12px;
 }
 @import "./u-user.less";
 @import "./u-myaccount.less";
+
+
+.supplier-column{
+    .clearfix();
+    border:#ddd solid 1px;
+    border-top: transparent;
+    .supplier-title{
+        display: block;
+        border-right: 1px solid #ddd;
+    }
+    a{
+        display: block;
+        width: 183px;
+        height: 78px;
+        overflow: hidden;
+        img{
+            max-width: 100%;
+        }
+    }
+}

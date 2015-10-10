@@ -50,9 +50,9 @@ $(function() {
 $(function() {
     $('#shoplist3-marquee1,#shoplist3-marquee2,#shoplist3-marquee3,#shoplist3-marquee4,#shoplist3-marquee5,#shoplist3-marquee6').marquee({
       auto: true,
-      interval: 2000,
+      interval: 4000,
       showNum: 3,
-      stepLen: 3,
+      stepLen: 1,
       type: 'vertical'
     });
   });
