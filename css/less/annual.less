@@ -1,13 +1,16 @@
+.l-float{
+    .clearfix();
+}
 .l-banner-c{
     display: block;
     height: 364px;
     text-align: center;
-    background: url(../../images/annual/annual-banner.png) center top no-repeat;
+    background: url(../../annual/images/annual-banner.png) center top no-repeat;
 }
 .l-main-column-an{
     width: 1200px;
+    display: block;
     margin-top: 20px;
-    margin-bottom: 20px;
     overflow: hidden;
 }
 .l-annual-banner{
@@ -28,6 +31,10 @@
             background: #fff;
             float: left;
             margin-right: 20px;
+            cursor: pointer;
+        }
+        .down{
+            background: #e33c44;
         }
     }
 }
@@ -51,7 +58,7 @@
 }
 .anpic-tit{
     position: relative;
-    top: -96px;
+    top: -98px;
     left: 13px;
     display: inline-block;
     width: 748px;
@@ -60,6 +67,20 @@
     background: rgba(0,0,0,0.6);
     font-size: 30px;
     font-weight: 500;
+    color: #fff;
+    padding-left: 20px;
+    font-family: 'Microsoft Yahei';
+}
+.anbigdeal-tit{
+    position: relative;
+    top: -58px;
+    display: inline-block;
+    width: 751px;
+    height: 58px;
+    line-height: 58px;
+    background: rgba(0,0,0,0.6);
+    font-size: 18px;
+    font-weight: 400;
     color: #fff;
     padding-left: 20px;
     font-family: 'Microsoft Yahei';
@@ -75,11 +96,251 @@
         display: block;
         width: 388px;
         height: 34px;
-        background: url(../../images/annual/topic-tit.png) top center no-repeat;
-        margin: 24px auto;
+        background: url(../../annual/images/topic-tit.png) top center no-repeat;
+        margin: 14px auto;
     }
     >p{
         line-height: 26px;
         font-size: 14px;
+    }
+}
+.annual-tit{
+    width: 100%;
+    display: inline-block;
+    .antit-txt{
+        padding-left: 74px;
+        color: #e33c44;
+        font-size: 30px;
+        font-weight: 500;
+        font-family: "Microsoft Yahei";
+        border: 2px solid #2294dc;
+        height: 60px;
+        line-height: 60px;
+    }
+    .antit-icon-lg{
+        background: url(../../annual/images/icon-antit-b.png) top left no-repeat;
+        display: block;
+        width: 100%;
+        height: 68px;
+        position: relative;
+        top: -94px;
+        z-index: 999;
+    }
+    .antit-icon-s{
+        background: url(../../annual/images/icon-antit-s.png) bottom right no-repeat;
+        display: block;
+        width: 100%;
+        height: 32px;
+        position: relative;
+        top: -82px;
+        z-index: 999;
+    }
+}
+.mrt-40{
+    margin-top: -40px;
+}
+.mrt40{
+    margin-top: 40px;
+}
+.mrt50{
+    margin-top: 50px;
+}
+.mrb20{
+    margin-bottom: 20px;
+}
+.txt-c{
+    text-align: center;
+}
+.annual-tran{
+    display: block;
+    width: 389px;
+    height: 580px;
+    float: left;
+    margin-right: 16px;
+}
+.annual-bigdeal{
+    display: inline-block;
+    width: 795px;
+    height: 580px;
+    float: left;
+}
+.annual-col-info{
+    width: 99.8%;
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin-top: -100px;
+}
+.an-tran-info{
+    text-align: center;
+    img{
+        margin-top: 8px;
+    }
+}
+.an-bigdeal-pic{
+    display: block;
+    width: 747px;
+    height: 320px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    margin: 22px;
+    .controler{
+        text-indent: -9999px;
+        display: block;
+        width: 184px;
+        position: relative;
+        top: -348px;
+        left: 580px;
+        z-index: 999;
+        b{
+            display: block;
+            width: 68px;
+            height: 8px;
+            background: #fff;
+            float: left;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .down{
+            background: #e33c44;
+        }
+    }
+    li{
+        display: block;
+        width: 751px;
+        height: 320px;
+    }
+}
+.an-bigdeal-list{
+    display: block;
+    li{
+        display: block;
+        float: left;
+        width: 365px;
+        margin-left: 20px;
+        text-indent: 20px;
+        background: url(../../annual/images/icon-arrows-left.png) left center no-repeat;
+        height: 20px;
+        line-height: 20px;
+        margin-bottom: 18px;
+        font-size: 14px;
+        a{
+            color: #3d3d3d;
+            span{
+                float: right;
+                margin-right: 8px;
+            }
+            .txt-w260{
+                display: block;
+                float: left;
+                width: 240px;
+                overflow: hidden;
+                text-overflow:ellipsis;
+                -o-text-overflow:ellipsis;
+                white-space:nowrap;
+            }
+        }
+        a:hover{
+            color: #e33c44;
+        }
+    }
+}
+.an-outlook{
+    position: relative;
+    top: -32px;
+}
+.outlook-tit{
+    width: 98%;
+    height: 34px;
+    margin: 8px auto;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.outlook-list{
+    display: block;
+    margin-top: 42px;
+    padding-top: 16px;
+    li{
+        display: block;
+        width: 560px;
+        float: left;
+        margin-left: 26px;
+        .outlook-li-tit{
+            height: 24px;
+            line-height: 24px;
+            font-size: 18px;
+            border-left: 6px solid #e33c44;
+            padding-left: 16px;
+            font-family: "Microsoft Yahei";
+            a:hover{
+                color: #e33c44;
+            }
+        }
+        .outlook-li-info{
+            >p{
+                margin-top: 8px;
+                line-height: 24px;
+                font-size: 14px;
+            }
+            >a{
+                color: #e33c44;
+            }
+        }
+        .outlook-li-pic{
+            display: block;
+            border: 1px solid #ddd;
+            width: 540px;
+            height: 167px;
+        }
+        .outlook-li-pictit{
+            background: rgba(0,0,0,0.6);
+            font-size: 14px;
+            height: 34px;
+            line-height: 34px;
+            width: 542px;
+            position: relative;
+            top: -34px;
+            a{
+                padding-left: 20px;
+                color: #fff;
+            }
+        }
+    }
+}
+.slide-pic{
+    .wrap{
+        display: block;
+        width: 1140px;
+        height: 250px;
+        margin-top: 38px;
+        margin-bottom: -34px;
+        overflow: hidden;
+        li{
+            display: block;
+            width: 334px;
+            height: 250px;
+            overflow: hidden;
+            float: left;
+            margin-left:  32px;
+            margin-right:  32px;
+            img{
+                height: 250px;
+            }
+        }
+    }
+    input{
+        position: relative;
+        top: -140px;
+        width: 20px;
+        height: 64px;
+        border: none;
+        text-indent: -999px;
+        outline: none;
+    }
+    #prev{
+        background: url(../../annual/images/icon-arrowsred-l.png) left center no-repeat;
+    }
+    #next{
+        background: url(../../annual/images/icon-arrowsred-r.png) left center no-repeat;
+        left: 1152px;
     }
 }

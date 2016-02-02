@@ -29,17 +29,6 @@ $(function() {
             nextElement: $('#u-next')
         });
     });
-//annual
-$(function() {
-        $('#annual-pic').marquee({
-            auto: true,
-            interval: 5000 ,
-            speed: 500,
-            showNum: 1,
-            stepLen: 1,
-            nextElement: $('#controler b')
-        });
-    });
 // tab
 $(function() {
   function tabs(tabTit, on, tabCon) {
