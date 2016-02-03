@@ -115,20 +115,30 @@
     <div class="mian l-float">
         <div class="l-main-column-an l-float">
             <div class="l-annual-banner l-left">
-                <div id="annual-pic" class="annual-pic pages" data-scro="list">
-                    <ul>
-                        <li class="item"><a href="http://www.chinayunhua.com/PcPage/Article/ArticleDetail.aspx?Id=4856&Typeid=122"><img src="images/annual-keypic1.png" alt=""></a>
+                <div class="ck-slide">
+                    <ul class="ck-slide-wrapper">
+                        <li>
+                        <a href="http://www.chinayunhua.com/PcPage/Article/ArticleDetail.aspx?Id=4856&Typeid=122"><img src="images/annual-keypic1.png" alt=""></a>
                         </li>
-                        <li class="item"><a href="http://www.ehuashidai.com:8081/PcPage/Article/ArticleDetail.aspx?Id=2958&Typeid=122"><img src="images/annual-keypic2.png" alt=""></a>
+                        <li style="display:none">
+                        <a href="http://www.ehuashidai.com:8081/PcPage/Article/ArticleDetail.aspx?Id=2958&Typeid=122"><img src="images/annual-keypic2.png" alt=""></a>
                         </li>
-                        <li class="item"><a href="http://www.ehuashidai.com:8081/PcPage/Article/ArticleDetail.aspx?Id=4620&Typeid=122"><img src="images/annual-keypic3.png" alt=""></a>
+                        <li style="display:none">
+                        <a href="http://www.ehuashidai.com:8081/PcPage/Article/ArticleDetail.aspx?Id=4620&Typeid=122"><img src="images/annual-keypic3.png" alt=""></a>
                         </li>
                     </ul>
-                </div>
-                <div class="anpic-tit" id="anpic-tit">
+                    <div class="anpic-tit" id="anpic-tit">
                     <p>年度精彩画面</p>
-                </div>
-                <div class="controler" id="controler" data-scro="controler"> <b class="down">1</b> <b>2</b><b>3</b>
+                    </div>
+                    <div class="ck-slidebox">
+                        <div class="slideWrap">
+                            <ul class="dot-wrap">
+                                <li class="current"><em>1</em></li>
+                                <li><em>2</em></li>
+                                <li><em>3</em></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="annual-topic">
@@ -138,7 +148,7 @@
                 </p>
             </div>
         </div>
-        <div class="l-mian-column-an l-float mrt-40">
+        <div class="l-mian-column-an l-float mrt40">
             <div class="annual-tran">
                 <div class="annual-tit">
                     <div class="antit-txt">
@@ -161,23 +171,29 @@
                 </div>
                 <div class="annual-col-info">
                     <div class="an-bigdeal-pic">
-                            <div id="an-bigdeal-pic" class="" data-scro="list">
-                                <ul>
-                                    <li class="item">
+                            <div class="ck-slide">
+                                <ul class="ck-slide-wrapper">
+                                    <li>
                                         <a href="http://www.chinayunhua.com/PcPage/Article/ArticleDetail.aspx?Id=5267&Typeid=72"><img src="images/annual-pagepic2.png" alt=""></a>
                                         <div class="anbigdeal-tit" id="anpic-tit">
                                             <p>央行2015年五次降息</p>
                                         </div>
                                     </li>
-                                    <li class="item">
+                                    <li style="display:none">
                                         <a href="http://www.chinayunhua.com/PcPage/Article/ArticleDetail.aspx?Id=5264&Typeid=72"><img src="images/annual-pagepic1.png" alt=""></a>
                                         <div class="anbigdeal-tit" id="anpic-tit">
                                             <p>人民币“入篮” 将提振塑料制品出口</p>
                                         </div>
                                     </li>
                                 </ul>
-                            </div>
-                            <div class="controler" id="controler" data-scro="controler"> <b class="down">1</b> <b>2</b>
+                                <div class="ck-slidebox b104">
+                                    <div class="slideWrap">
+                                        <ul class="dot-wrap">
+                                            <li class="current"><em>1</em></li>
+                                            <li><em>2</em></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                     </div>
                     <div class="an-bigdeal-list">
@@ -362,7 +378,6 @@
 <script src="../js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="../js/marquee.js" type="text/javascript" charset="utf-8"></script><!-- 滚动切换类 -->
 <script src="../js/mian.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/annual.js" type="text/javascript" charset="utf-8"></script>
 <script>var online= new Array();</script>
 <script>
 (function($){
@@ -406,6 +421,15 @@
             nextElement: $('#next')
         });
     })
+</script>
+<script src="js/slide.js" type="text/javascript"></script>
+<script>
+    $('.ck-slide').ckSlide({
+        autoPlay: true,
+        dir: 'x',//默认效果淡隐淡出，x为水平移动，y 为垂直滚动
+        interval:3000//默认间隔2000毫秒
+ 
+    });
 </script>
 </body>
 </html>
