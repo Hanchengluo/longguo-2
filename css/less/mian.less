@@ -201,10 +201,21 @@ textarea {
                 background:#FF6666;
                 border-radius: 10px;
             }
-
     }
-
-
+    li:hover .popup-code {
+        display: block;
+    }
+    .popup-code {
+        display: none;
+        background: url(../../images/weixin-code-bg.png) center no-repeat;
+        position: absolute;
+        top: 46px;
+        left: -28px;
+        z-index: 9999;
+        width: 120px;
+        height: 120px;
+        padding-top: 25px;
+    }
 }
 .l-header-bottom{
     width: 100%;
