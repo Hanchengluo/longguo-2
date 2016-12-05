@@ -1,0 +1,45 @@
+.font-h {
+  font-family: "SimHei" Arial, sans-serif;
+}
+.font-s {
+  font-family: "SimSun" Arial, sans-serif;
+}
+.font-color-bai {
+  color: #ffffff;
+}
+.font-color-hei {
+  color: #333333;
+}
+.font-color-hui {
+  color: #6c6c6c;
+}
+.font-color-lan {
+  color: #2294dc;
+}
+.font-color-cheng {
+  color: #f56915;
+}
+.font-color-hong {
+  color: #F12D00;
+}
+.bg-cheng {
+  background: #f56915;
+}
+.bg-lan {
+  background: #2294DC;
+}
+.bg-h1 {
+  background: #f4f4f4;
+}
+.bg-h2 {
+  background: #f8f8f8;
+}
+.font36 {
+  font-size: 36px;
+}
+.font24 {
+  font-size: 24px;
+}
+.font18 {
+  font-size: 18px;
+}

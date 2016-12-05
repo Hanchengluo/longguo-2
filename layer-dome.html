@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>首页·龙国贸易</title>
+</head>
+<body>
+<button id="test1">小小提示层</button>
+<button id="test2">小小提示层</button>
+<button id="test3">小小提示层</button>
+<form id="domeform">
+    <fieldset>
+        <legend>登录</legend>
+        <p>
+            <label for="username">用户名</label>
+            <input type="text" id="username" name="username"/>
+        </p>
+        <p>
+            <label for="password">密码</label>
+            <input type="password" id="password" name="password"/>
+        </p>
+        <p><input type="submit" name="" value="登录"/></p>
+    </fieldset>
+</form>
+<script src="js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/layer.js" type="text/javascript" charset="utf-8"></script>
+<script  type="text/javascript">
+    $(document).ready(function(){
+        $("#domeform").validate({
+            rules:{
+                username:{
+                    required:true,
+                    minlength:2,
+                    maxlength:10
+                },
+                password:{
+                    required:true,
+                    minlength:2,
+                    maxlength:16
+                },
+            }
+        });
+    });
+
+</script>
+<script>
+//弹出一个页面层
+$('#test2').on('click', function(){
+    layer.open({
+        type: 1,
+        skin: 'layui-layer-demo', //样式类名
+        closeBtn: true, //不显示关闭按钮
+        area: ['600px', '360px'],
+        shadeClose: true, //点击遮罩关闭
+        content: '\<\div style="padding:20px;"><div class="l-right"><ui><li><a class="icon-drop-down" href="">会员中心</a><div class="dorp-down-user"><ul><li><a href="">我的账号</a></li><li><a href="">我的交易</a></li><li><a href="">我的发布</a></li></ul></div></li><li><a class="icon-drop-down" href="">帮助中心</a><div class="dorp-down-user"><ul><li><a href="">我的账号</a></li><li><a href="">我的交易</a></li><li><a href="">我的发布</a></li></ul></div></li><li style="width: 172px;"><a >交易时间：工作日 9:00-17:30</a> </li></ui></div>\<\/div>'
+    });
+});
+$('#test1').on('click', function(){
+    layer.open({
+        type: 2,
+        skin: 'layui-layer-lan',
+        title: 'iframe父子操作',
+        maxmin: false,
+        shade: 0.1,
+        shadeClose: true, //点击遮罩关闭层
+        area : ['800px' , '520px'],
+        content: 'index.html'
+    });
+});
+$('#test3').on('click', function(){
+    //还该列举什么呢
+    // layer.msg('等我想想…');
+    // layer.alert('申请失败');
+    //提示层
+    layer.msg('玩命提示中');
+});
+
+</script>
+</body>
+</html>

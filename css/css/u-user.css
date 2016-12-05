@@ -1,0 +1,114 @@
+.user-numbur-bg {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 20px;
+  background: #62AFE0;
+}
+.mian-user {
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.u-managemenlist-tit {
+  margin-bottom: 20px;
+}
+.u-managemenlist-box {
+  height: 310px;
+  overflow-y: auto;
+  border: #ddd solid 1px;
+}
+.u-managemenlist-box table td {
+  text-align: center;
+  font-weight: bold;
+}
+.u-managemeninfo-box {
+  height: 310px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-bottom: #ddd solid 1px;
+}
+.u-managemeninfo-box li {
+  float: left;
+  width: 598px;
+  height: 310px;
+}
+.u-managemeninfo-box table td {
+  font-weight: bold;
+}
+.u-managemeninfo-bottom {
+  width: 72px;
+  height: 25px;
+  margin-top: 10px;
+  text-align: center;
+}
+.u-managemeninfo-bottom a {
+  float: left;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+  text-indent: -99999px;
+  overflow: hidden;
+}
+.u-managemeninfo-bottom #managemeninfo-next {
+  background: url(../../images/icon-u-managemeninfo-next.png) center center no-repeat;
+}
+.u-managemeninfo-bottom #managemeninfo-prev {
+  background: url(../../images/icon-u-managemeninfo-prev.png) center center no-repeat;
+}
+.u-managemeninfo-bottom .u-managemeninfo-edit {
+  background: url(../../images/icon-u-managemeninfo-edit.png) center center no-repeat;
+}
+.u-managemeninfo-bottom .u-managemeninfo-edit:hover {
+  background: url(../../images/icon-u-managemeninfo-edit-hover.png) center center no-repeat;
+}
+.u-managemeninfo-bottom .u-managemeninfo-delete {
+  background: url(../../images/icon-u-managemeninfo-delete.png) center center no-repeat;
+}
+.u-managemeninfo-bottom .u-managemeninfo-delete:hover {
+  background: url(../../images/icon-u-managemeninfo-delete-hover.png) center center no-repeat;
+}
+.u-counteroffermessage-box table td {
+  font-weight: bold;
+  text-align: left;
+}
+.u-addmanagemen-box table th {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+.u-addmanagemen-box table td {
+  font-weight: bold;
+  font-size: 20px;
+}
+.u-addmanagemen-box table td input {
+  line-height: 30px;
+  text-indent: 8px;
+  font-size: 20px;
+  color: #333333;
+}
+.u-addmanagemen-box table td span {
+  font-size: 16px;
+  color: #f00;
+}
+.u-addmanagemen-box table td a {
+  display: block;
+  width: 318px;
+  height: 40px;
+  margin: 10px auto 0 auto;
+  border-radius: 5px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  background: #f56915;
+}
+.u-addmanagemen-box table td label {
+  font-size: 16px;
+  font-weight: 400;
+}

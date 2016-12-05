@@ -1,0 +1,594 @@
+.l-myaccount-left {
+  width: 190px;
+  min-height: 482px;
+  background: #F5F5F5;
+}
+.l-myaccount-left h2,
+.l-myaccount-left li {
+  width: 170px;
+  height: 60px;
+  line-height: 60px;
+  padding-right: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+.l-myaccount-left h2:hover a,
+.l-myaccount-left li:hover a,
+.l-myaccount-left h2:hover em,
+.l-myaccount-left li:hover em {
+  color: #2193db !important;
+}
+.l-myaccount-left h2 a,
+.l-myaccount-left li a {
+  display: block;
+  padding-left: 52px;
+}
+.l-myaccount-left h2 em,
+.l-myaccount-left li em {
+  float: right;
+}
+.l-myaccount-left .li-active a,
+.l-myaccount-left .li-active em {
+  color: #2193db !important;
+}
+.l-myaccount-left .u-myaccount-jbxx a {
+  background: url(../../images/user/icon_message_nor.png) 22px center no-repeat;
+}
+.l-myaccount-left .u-myaccount-jbxx a:hover,
+.l-myaccount-left .u-myaccount-jbxx .active {
+  background: url(../../images/user/icon_message_hover.png) 22px center no-repeat;
+  color: #2193db;
+}
+.l-myaccount-left .u-myaccount-jbxx a:hover em,
+.l-myaccount-left .u-myaccount-jbxx .active em {
+  color: #2193db;
+}
+.l-myaccount-left .u-myaccount-zlrz a {
+  background: url(../../images/user/icon_approve_nor.png) 22px center no-repeat;
+}
+.l-myaccount-left .u-myaccount-zlrz a:hover,
+.l-myaccount-left .u-myaccount-zlrz .active {
+  background: url(../../images/user/icon_approve_hover.png) 22px center no-repeat;
+  color: #2193db;
+}
+.l-myaccount-left .u-myaccount-zlrz a:hover em,
+.l-myaccount-left .u-myaccount-zlrz .active em {
+  color: #2193db;
+}
+.l-myaccount-left .u-myaccount-zhaq a {
+  background: url(../../images/user/icon_message_nor.png) 22px center no-repeat;
+}
+.l-myaccount-left .u-myaccount-zhaq a:hover,
+.l-myaccount-left .u-myaccount-zhaq .active {
+  background: url(../../images/user/icon_message_hover.png) 22px center no-repeat;
+  color: #2193db;
+}
+.l-myaccount-left .u-myaccount-zhaq a:hover em,
+.l-myaccount-left .u-myaccount-zhaq .active em {
+  color: #2193db;
+}
+.l-myaccount-left .u-myrelease-fbxq a {
+  background: url(../../images/user/icon_publish_nor.png) 22px center no-repeat;
+}
+.l-myaccount-left .u-myrelease-fbxq a:hover,
+.l-myaccount-left .u-myrelease-fbxq .active {
+  background: url(../../images/user/icon_publish_hover.png) 22px center no-repeat;
+  color: #2193db;
+}
+.l-myaccount-left .u-myrelease-fbxq a:hover em,
+.l-myaccount-left .u-myrelease-fbxq .active em {
+  color: #2193db;
+}
+.l-myaccount-left .u-myrelease-fbgy a {
+  background: url(../../images/user/icon_publish_nor.png) 22px center no-repeat;
+}
+.l-myaccount-left .u-myrelease-fbgy a:hover,
+.l-myaccount-left .u-myrelease-fbgy .active {
+  background: url(../../images/user/icon_publish_hover.png) 22px center no-repeat;
+  color: #2193db;
+}
+.l-myaccount-left .u-myrelease-fbgy a:hover em,
+.l-myaccount-left .u-myrelease-fbgy .active em {
+  color: #2193db;
+}
+.l-myaccount-left .u-myrelease-wdhp a {
+  background: url(../../images/user/icon_counter_nor.png) 22px center no-repeat;
+}
+.l-myaccount-left .u-myrelease-wdhp a:hover,
+.l-myaccount-left .u-myrelease-wdhp .active {
+  background: url(../../images/user/icon_counter_hover.png) 22px center no-repeat;
+  color: #2193db;
+}
+.l-myaccount-left .u-myrelease-wdhp a:hover em,
+.l-myaccount-left .u-myrelease-wdhp .active em {
+  color: #2193db;
+}
+.l-myaccount-left .u-myrelease-wdgz a {
+  background: url(../../images/user/icon_attent_nor.png) 22px center no-repeat;
+}
+.l-myaccount-left .u-myrelease-wdgz a:hover,
+.l-myaccount-left .u-myrelease-wdgz .active {
+  background: url(../../images/user/icon_attent_hover.png) 22px center no-repeat;
+  color: #2193db;
+}
+.l-myaccount-left .u-myrelease-wdgz a:hover em,
+.l-myaccount-left .u-myrelease-wdgz .active em {
+  color: #2193db;
+}
+.l-myaccount-left .u-mydeal-xqdd a {
+  background: url(../../images/user/icon_purchase_nor.png) 22px center no-repeat;
+}
+.l-myaccount-left .u-mydeal-xqdd a:hover,
+.l-myaccount-left .u-mydeal-xqdd .active {
+  background: url(../../images/user/icon_purchase_hover.png) 22px center no-repeat;
+  color: #2193db;
+}
+.l-myaccount-left .u-mydeal-xqdd a:hover em,
+.l-myaccount-left .u-mydeal-xqdd .active em {
+  color: #2193db;
+}
+.l-myaccount-left .u-mydeal-cgdd a {
+  background: url(../../images/user/icon_purchase_nor.png) 22px center no-repeat;
+}
+.l-myaccount-left .u-mydeal-cgdd a:hover,
+.l-myaccount-left .u-mydeal-cgdd .active {
+  background: url(../../images/user/icon_purchase_hover.png) 22px center no-repeat;
+  color: #2193db;
+}
+.l-myaccount-left .u-mydeal-cgdd a:hover em,
+.l-myaccount-left .u-mydeal-cgdd .active em {
+  color: #2193db;
+}
+.l-myaccount-left .u-mydeal-gydd a {
+  background: url(../../images/user/icon_supply_nor.png) 22px center no-repeat;
+}
+.l-myaccount-left .u-mydeal-gydd a:hover,
+.l-myaccount-left .u-mydeal-gydd .active {
+  background: url(../../images/user/icon_supply_hover.png) 22px center no-repeat;
+  color: #2193db;
+}
+.l-myaccount-left .u-mydeal-gydd a:hover em,
+.l-myaccount-left .u-mydeal-gydd .active em {
+  color: #2193db;
+}
+.l-myaccount-left .u-mydeal-dbht a {
+  background: url(../../images/user/icon_backlog_nor.png) 22px center no-repeat;
+}
+.l-myaccount-left .u-mydeal-dbht a:hover,
+.l-myaccount-left .u-mydeal-dbht .active {
+  background: url(../../images/user/icon_backlog_hover.png) 22px center no-repeat;
+  color: #2193db;
+}
+.l-myaccount-left .u-mydeal-dbht a:hover em,
+.l-myaccount-left .u-mydeal-dbht .active em {
+  color: #2193db;
+}
+.l-myaccount-right {
+  width: 956px;
+}
+.u-basicsinformation-list li {
+  float: left;
+  width: 956px;
+  height: 80px;
+  border-bottom: #ddd solid 1px;
+}
+.u-basicsinformation-list li label,
+.u-basicsinformation-list li span,
+.u-basicsinformation-list li a {
+  float: left;
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.u-basicsinformation-list li label {
+  width: 96px;
+  margin-right: 180px;
+  text-align: right;
+}
+.u-basicsinformation-list li span {
+  width: 560px;
+  text-align: left;
+}
+.u-basicsinformation-list li a {
+  width: 120px;
+  text-align: right;
+  color: #2193DB;
+}
+.l-certificate-page .u-certificate-tip {
+  margin-bottom: 20px;
+  padding: 30px 98px;
+  background: #CCCCCC;
+}
+.l-certificate-page .u-certificate-tip label {
+  float: left;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  text-align: right;
+  line-height: 24px;
+}
+.l-certificate-page .u-certificate-tip span {
+  float: right;
+  display: inline-block;
+  width: 690px;
+  color: #333;
+  line-height: 24px;
+}
+.l-certificate-page .u-certificate-input {
+  padding-left: 34px;
+}
+.l-certificate-page .u-certificate-img-tip {
+  padding: 30px 98px;
+  background: #ccc;
+  color: #333;
+}
+.l-certificate-page .u-certificate-uploading {
+  padding-top: 20px;
+}
+.l-certificate-page .u-certificate-uploading li {
+  width: 252px;
+  height: 290px;
+  margin-right: 100px;
+  float: left;
+}
+.l-certificate-page .u-certificate-uploading li em {
+  color: #f00;
+}
+.l-certificate-page .u-certificate-uploading li p {
+  line-height: 24px;
+  font-weight: 600;
+}
+.l-certificate-page .u-certificate-uploading li .f-certificate-img {
+  width: 252px;
+  height: 200px;
+  margin-bottom: 20px;
+  border: #ddd solid 1px;
+  overflow: hidden;
+}
+.l-certificate-page .u-certificate-uploading li .f-certificate-bnt {
+  position: relative;
+  width: 252px;
+  height: 33px;
+}
+.l-certificate-page .u-certificate-uploading li .f-certificate-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 252px;
+  height: 33px;
+  line-height: 33px;
+  background: #2294DC;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  z-index: 999;
+}
+.l-certificate-page .u-certificate-uploading li .f-certificate-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 252px;
+  height: 33px;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  -moz-opacity: 0;
+  filter: alpha(opacity=0);
+  z-index: 9999;
+}
+.l-certificate-page .u-submit-box {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: #ddd solid 1px;
+  text-align: center;
+}
+.l-certificate-page .u-submit-box a {
+  display: inline-block;
+  padding: 8px 46px;
+  text-align: center;
+  border-radius: 4px;
+}
+.l-certificate-page .u-submit-box .u-submit {
+  color: #fff;
+  background: #2294dc;
+}
+.l-certificate-page .u-submit-box .u-cancel {
+  color: #000;
+  background: #cccccc;
+}
+.l-certificate-page .margin-right0 {
+  margin-right: 0px !important;
+}
+.u-changepassword-input {
+  padding: 30px;
+}
+.u-changepassword-ok {
+  height: 68px;
+  margin: 88px 200px;
+  padding-left: 86px;
+  background: url(../../images/user/icon-changepassword-ok.gif) left center no-repeat;
+}
+.u-changepassword-ok h2 {
+  color: #3BA114;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.u-changepassword-ok p {
+  margin-top: 10px;
+  line-height: 24px;
+  color: #535353;
+  font-size: 20px;
+  font-weight: 600;
+}
+.l-changepassemail-input {
+  padding-left: 95px;
+  background: url(../../images/user/icon-changepassemail.gif) left top no-repeat;
+}
+.l-changepassemail-input h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 34px;
+}
+.l-changepassemail-input p {
+  line-height: 34px;
+}
+.l-changepassemail-input .modify {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0 40px;
+  border: #ddd solid 1px;
+  background: #fbfbfb;
+  line-height: 34px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.l-changepassemail-input input {
+  width: 246px;
+  height: 38px;
+  margin-right: 12px;
+  text-indent: 8px;
+  border: #ddd solid 1px;
+}
+.l-changepassemail-input .confirmmodify {
+  display: inline-block;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 3px;
+  padding: 0 16px;
+  background: #2193DB;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.l-changephone-input {
+  padding-left: 95px;
+  background: url(../../images/user/icon-changephone.gif) left top no-repeat;
+}
+.l-changephone-input h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 34px;
+}
+.l-changephone-input p {
+  line-height: 34px;
+}
+.l-changephone-input .modify {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0 40px;
+  border: #ddd solid 1px;
+  background: #fbfbfb;
+  line-height: 34px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.u-myreleasehome-tit {
+  width: 978px;
+  height: 32px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.u-myreleasehome-tit label,
+.u-myreleasehome-tit select {
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+}
+.u-myreleasehome-tit select {
+  margin-right: 24px;
+}
+.u-myreleasehome-tit .input-box {
+  width: 212px;
+  height: 32px;
+  overflow: hidden;
+}
+.u-myreleasehome-tit .input-box input {
+  width: 150px;
+  height: 28px;
+  line-height: 28px;
+  border: #2193DB solid  1px;
+  text-indent: 8px;
+  font-weight: 600;
+}
+.u-myreleasehome-tit .input-box .ss-bnt {
+  display: inline-block;
+  width: 58px;
+  height: 32px;
+  line-height: 32px;
+  border: none;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  background: #2193DB;
+}
+.u-myreleasehome-tit .fb-bnt {
+  display: inline-block;
+  margin-left: 24px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px;
+  text-align: center;
+  text-indent: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background: url(../../images/user/button_supply_bg.png) left center no-repeat;
+}
+.u-myreleasehome-tit .wd-bnt {
+  display: inline-block;
+  margin-left: 14px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 2px;
+  text-align: center;
+  text-indent: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background: #f56915;
+  border-radius: 4px;
+}
+.u-myreleasehome-list {
+  padding-top: 20px;
+}
+.u-myreleasehome-list table th {
+  border-top: #ddd solid 1px;
+  background: #f5f5f5;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+.u-myreleasehome-list table td {
+  border-top: #ddd solid 1px;
+  text-align: center;
+  font-weight: 400;
+}
+.u-myreleasehome-list .delete-bnt {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  text-indent: -9999px;
+  background: url(../../images/user/icon_delete_nor.png) center center no-repeat;
+}
+.u-myreleasehome-list .delete-bnt:hover {
+  background: url(../../images/user/icon_delete_hover.png) center center no-repeat;
+}
+.u-myreleasehomeinfo-tit h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.u-myreleasehomeinfo-tit a {
+  display: inline-block;
+  padding: 6px 23px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  background: #f56915;
+  border-radius: 3px;
+}
+.u-myreleasehomeinfo-tit .disable-bnt {
+  background: #B3B3B3 !important;
+}
+.u-myreleasehomeinfo-box {
+  padding: 30px 0;
+}
+.u-myreleasehomeinfo-box h2 {
+  border-bottom: #ddd solid 1px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #535353;
+  height: 56px;
+  line-height: 56px;
+}
+.u-myreleasehomeinfo-box .product {
+  padding: 10px 0;
+  line-height: 28px;
+  color: #535353;
+}
+.u-myreleasehomeinfo-box .u-myreleasehomeinfo-table {
+  border: #ddd solid 1px;
+}
+.u-myreleasehomeinfo-box .u-myreleasehomeinfo-table th {
+  border-bottom: #ddd solid 1px;
+  background: #f5f5f5;
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+}
+.u-myreleasehomeinfo-box .u-myreleasehomeinfo-table td {
+  text-align: center;
+  font-size: 20px;
+}
+.u-mydealhomecongirm {
+  margin: 10px 0 40px 0;
+  text-align: center;
+}
+.u-mydealhomeconfirm-info {
+  padding: 14px 32px;
+  background: #FBF0E0;
+  border: #ddd solid 2px;
+}
+.u-mydealhomeconfirm-info .text-align-right {
+  text-align: right;
+}
+.u-mydealhomeconfirm-info table {
+  font-size: 16px;
+  color: #333;
+  font-weight: 500px;
+}
+.u-mydealhomeconfirm-info h2 {
+  padding: 14px 32px;
+  border-top: #ddd solid 2px;
+  border-bottom: none;
+  line-height: 45px;
+  color: #FF4747;
+}
+.u-mydealhomecongirm {
+  display: inline-block;
+  margin: 10px 0 40px 0;
+  text-align: center;
+}
+.u-mydealhomecongirm .date-line {
+  width: 938px;
+  border-bottom: 2px solid #dddddd;
+  margin-top: 20px;
+}
+.u-mydealhomecongirm dl {
+  width: 58px;
+  margin-left: 80px;
+  float: left;
+  display: block;
+  position: relative;
+  top: -15px;
+}
+.u-mydealhomecongirm dl .num-grey {
+  background: url(../../images/user/icon_numbg_nor.png);
+  color: #b7b7b7;
+}
+.u-mydealhomecongirm dl .num-red {
+  background: url(../../images/user/icon_numbg_hover.png);
+  color: #ffffff;
+}
+.u-mydealhomecongirm dl dt {
+  display: inline-block;
+  position: relative;
+  width: 29px;
+  height: 29px;
+  line-height: 29px;
+  text-align: center;
+}
+.u-mydealhomecongirm dl dd {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}

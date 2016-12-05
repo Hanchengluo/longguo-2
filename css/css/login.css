@@ -1,0 +1,19 @@
+.l-login-page {
+  position: relative;
+  width: 1200px;
+  height: 494px;
+}
+.l-login-logo {
+  position: absolute;
+  top: 45px;
+  left: 0;
+}
+.l-login-banner {
+  position: absolute;
+  top: 123px;
+  left: 158px;
+}
+.l-login-page-form {
+  top: 123px !important;
+  right: 158px !important;
+}
